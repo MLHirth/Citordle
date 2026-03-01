@@ -1,0 +1,285 @@
+[
+  {
+    "id": "paris",
+    "name": "Paris",
+    "country": "France",
+    "country_code": "FR",
+    "secret_word": "croissant",
+    "activities": [
+      "walk along the Seine",
+      "visit art museums",
+      "sit at a sidewalk cafe"
+    ],
+    "known_for": "the Eiffel Tower",
+    "famous_person": "Victor Hugo",
+    "popular_item": "buttery pastries",
+    "map_svg": "M18 15 L70 10 L130 20 L180 45 L170 80 L120 102 L72 108 L34 92 L12 60 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": ["France", "Belgium", "Italy", "Spain"],
+    "duolingo": {
+      "prompt": "Translate: Bonjour, bienvenue a Paris!",
+      "options": [
+        "Hello, welcome to Paris!",
+        "Good night from Paris!",
+        "Paris has many bridges.",
+        "We leave Paris tomorrow."
+      ],
+      "answer": "Hello, welcome to Paris!"
+    },
+    "trivia": {
+      "prompt": "Which museum in Paris is home to the Mona Lisa?",
+      "options": ["Musee d'Orsay", "The Louvre", "Pompidou Center", "Petit Palais"],
+      "answer": "The Louvre"
+    },
+    "drawing_prompt": "Draw the Eiffel Tower silhouette.",
+    "drawing_template": [
+      [0.5, 0.06],
+      [0.42, 0.2],
+      [0.35, 0.38],
+      [0.29, 0.78],
+      [0.37, 0.78],
+      [0.44, 0.47],
+      [0.56, 0.47],
+      [0.63, 0.78],
+      [0.71, 0.78],
+      [0.65, 0.38],
+      [0.58, 0.2],
+      [0.5, 0.06]
+    ]
+  },
+  {
+    "id": "tokyo",
+    "name": "Tokyo",
+    "country": "Japan",
+    "country_code": "JP",
+    "secret_word": "sushi",
+    "activities": [
+      "explore neon districts",
+      "visit anime and game arcades",
+      "eat at conveyor-belt restaurants"
+    ],
+    "known_for": "fast trains and tech culture",
+    "famous_person": "Hayao Miyazaki",
+    "popular_item": "fresh sushi",
+    "map_svg": "M28 14 L65 18 L92 30 L120 22 L145 35 L174 64 L160 92 L112 104 L80 98 L46 84 L26 56 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": ["Japan", "South Korea", "China", "Taiwan"],
+    "duolingo": {
+      "prompt": "Translate: Tokyo wa oishii sushi de yuumei desu.",
+      "options": [
+        "Tokyo is famous for tasty sushi.",
+        "Tokyo has no seafood markets.",
+        "Tokyo is colder than Hokkaido.",
+        "Tokyo is a quiet village."
+      ],
+      "answer": "Tokyo is famous for tasty sushi."
+    },
+    "trivia": {
+      "prompt": "What is the busiest pedestrian crossing area in Tokyo?",
+      "options": ["Akihabara", "Shibuya", "Ginza", "Asakusa"],
+      "answer": "Shibuya"
+    },
+    "drawing_prompt": "Draw Tokyo Tower.",
+    "drawing_template": [
+      [0.5, 0.08],
+      [0.45, 0.18],
+      [0.4, 0.36],
+      [0.33, 0.82],
+      [0.67, 0.82],
+      [0.6, 0.36],
+      [0.55, 0.18],
+      [0.5, 0.08],
+      [0.42, 0.56],
+      [0.58, 0.56],
+      [0.42, 0.56]
+    ]
+  },
+  {
+    "id": "new-york",
+    "name": "New York City",
+    "country": "United States",
+    "country_code": "US",
+    "secret_word": "bagel",
+    "activities": [
+      "watch Broadway shows",
+      "ride the subway",
+      "walk through Central Park"
+    ],
+    "known_for": "Times Square and skyscrapers",
+    "famous_person": "Alicia Keys",
+    "popular_item": "classic bagels",
+    "map_svg": "M12 22 L45 10 L78 20 L98 48 L126 36 L162 58 L182 92 L140 104 L92 110 L50 98 L20 70 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": ["United States", "Canada", "Mexico", "United Kingdom"],
+    "duolingo": {
+      "prompt": "Translate: La ciudad nunca duerme.",
+      "options": [
+        "The city never sleeps.",
+        "The city closes early.",
+        "The city has no taxis.",
+        "The city is underground."
+      ],
+      "answer": "The city never sleeps."
+    },
+    "trivia": {
+      "prompt": "Which NYC borough is Coney Island in?",
+      "options": ["Queens", "Brooklyn", "Bronx", "Manhattan"],
+      "answer": "Brooklyn"
+    },
+    "drawing_prompt": "Draw the Empire State Building silhouette.",
+    "drawing_template": [
+      [0.5, 0.08],
+      [0.46, 0.2],
+      [0.43, 0.34],
+      [0.38, 0.52],
+      [0.38, 0.78],
+      [0.62, 0.78],
+      [0.62, 0.52],
+      [0.57, 0.34],
+      [0.54, 0.2],
+      [0.5, 0.08],
+      [0.54, 0.02],
+      [0.5, 0.08]
+    ]
+  },
+  {
+    "id": "rio",
+    "name": "Rio de Janeiro",
+    "country": "Brazil",
+    "country_code": "BR",
+    "secret_word": "samba",
+    "activities": [
+      "relax at Copacabana",
+      "ride cable cars",
+      "join carnival parades"
+    ],
+    "known_for": "Christ the Redeemer",
+    "famous_person": "Paulo Coelho",
+    "popular_item": "street barbecue snacks",
+    "map_svg": "M24 20 L72 12 L104 18 L146 32 L174 58 L168 88 L134 108 L84 106 L44 86 L18 54 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": ["Brazil", "Argentina", "Chile", "Portugal"],
+    "duolingo": {
+      "prompt": "Translate: O Rio e famoso pelo samba.",
+      "options": [
+        "Rio is famous for samba.",
+        "Rio is famous for snow.",
+        "Rio has no beaches.",
+        "Rio is in Europe."
+      ],
+      "answer": "Rio is famous for samba."
+    },
+    "trivia": {
+      "prompt": "What mountain overlooks Rio with a cable car route?",
+      "options": ["Sugarloaf Mountain", "Table Mountain", "Mount Fuji", "Mount Etna"],
+      "answer": "Sugarloaf Mountain"
+    },
+    "drawing_prompt": "Draw Christ the Redeemer.",
+    "drawing_template": [
+      [0.5, 0.2],
+      [0.5, 0.62],
+      [0.27, 0.36],
+      [0.73, 0.36],
+      [0.5, 0.62],
+      [0.44, 0.78],
+      [0.56, 0.78],
+      [0.5, 0.62]
+    ]
+  },
+  {
+    "id": "cairo",
+    "name": "Cairo",
+    "country": "Egypt",
+    "country_code": "EG",
+    "secret_word": "pyramid",
+    "activities": [
+      "tour ancient sites",
+      "cruise the Nile",
+      "shop in historic bazaars"
+    ],
+    "known_for": "the Pyramids of Giza",
+    "famous_person": "Naguib Mahfouz",
+    "popular_item": "koshari",
+    "map_svg": "M16 18 L58 14 L104 22 L136 44 L172 58 L178 86 L138 106 L84 104 L42 88 L14 56 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": ["Egypt", "Jordan", "Morocco", "Turkey"],
+    "duolingo": {
+      "prompt": "Translate: Al Qahira mashhura bil ahramat.",
+      "options": [
+        "Cairo is famous for the pyramids.",
+        "Cairo is surrounded by glaciers.",
+        "Cairo has no river.",
+        "Cairo is a small island."
+      ],
+      "answer": "Cairo is famous for the pyramids."
+    },
+    "trivia": {
+      "prompt": "Which river runs through Cairo?",
+      "options": ["Nile", "Amazon", "Danube", "Rhine"],
+      "answer": "Nile"
+    },
+    "drawing_prompt": "Draw the Great Pyramid of Giza.",
+    "drawing_template": [
+      [0.2, 0.78],
+      [0.4, 0.28],
+      [0.6, 0.78],
+      [0.2, 0.78],
+      [0.45, 0.78],
+      [0.64, 0.4],
+      [0.8, 0.78],
+      [0.45, 0.78]
+    ]
+  },
+  {
+    "id": "barcelona",
+    "name": "Barcelona",
+    "country": "Spain",
+    "country_code": "ES",
+    "secret_word": "tapas",
+    "activities": [
+      "wander Las Ramblas",
+      "visit seaside markets",
+      "tour Gaudi architecture"
+    ],
+    "known_for": "the Sagrada Familia",
+    "famous_person": "Antoni Gaudi",
+    "popular_item": "tapas plates",
+    "map_svg": "M20 20 L60 12 L102 20 L138 26 L170 48 L166 78 L132 104 L82 108 L42 92 L16 58 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": ["Spain", "Portugal", "Italy", "France"],
+    "duolingo": {
+      "prompt": "Translate: Barcelona es famosa por la arquitectura de Gaudi.",
+      "options": [
+        "Barcelona is famous for Gaudi architecture.",
+        "Barcelona has no old buildings.",
+        "Barcelona is known for polar nights.",
+        "Barcelona is in South America."
+      ],
+      "answer": "Barcelona is famous for Gaudi architecture."
+    },
+    "trivia": {
+      "prompt": "Which football club plays at Camp Nou?",
+      "options": ["Real Madrid", "Atletico Madrid", "FC Barcelona", "Valencia CF"],
+      "answer": "FC Barcelona"
+    },
+    "drawing_prompt": "Draw the Sagrada Familia facade.",
+    "drawing_template": [
+      [0.28, 0.78],
+      [0.3, 0.45],
+      [0.34, 0.24],
+      [0.38, 0.45],
+      [0.4, 0.78],
+      [0.44, 0.78],
+      [0.46, 0.36],
+      [0.5, 0.18],
+      [0.54, 0.36],
+      [0.56, 0.78],
+      [0.62, 0.78],
+      [0.64, 0.45],
+      [0.68, 0.24],
+      [0.72, 0.45],
+      [0.74, 0.78],
+      [0.28, 0.78]
+    ]
+  }
+]

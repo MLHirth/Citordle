@@ -1,0 +1,16 @@
+[package]
+name = "citordle-backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+axum = "0.7"
+chrono = { version = "0.4", features = ["clock"] }
+base64 = "0.22"
+hmac = "0.12"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.10"
+tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
+tower-http = { version = "0.6", features = ["cors"] }
