@@ -19,8 +19,7 @@ build-backend:
     cargo build --release --manifest-path backend/Cargo.toml
 
 build-frontend:
-    bun --cwd frontend install --frozen-lockfile
-    bun --cwd frontend run build
+    cd frontend && bun install --frozen-lockfile && bun run build
 
 deploy-frontend: build-frontend
     sudo install -d -m 755 "/var/www/citordle"
