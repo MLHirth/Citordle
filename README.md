@@ -13,6 +13,16 @@ Each day:
 - `backend/` - Rust API (Axum, modular design)
 - `frontend/` - Astro app with React islands
 
+## City data loading
+
+- The backend loads city data from `backend/data/cities.json`.
+- It also loads any extra `*.json` files directly under `backend/data/` (for example `world_cities_game_pack_60.json`).
+- You can drop new city JSON files into `backend/data/cities/` to add or override cities without editing the base file.
+- Each JSON file may contain either one city object or an array of city objects.
+- If two files share the same `id`, the later-loaded file overrides the earlier one.
+
+Daily selection is now cycle-based so each day gets a different city until the full city list is exhausted.
+
 ## Run locally
 
 1. Start the backend:

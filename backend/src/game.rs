@@ -1,9 +1,6 @@
-use std::{
-    collections::{hash_map::DefaultHasher, HashMap, HashSet},
-    hash::{Hash, Hasher},
-};
+use std::collections::{HashMap, HashSet};
 
-use chrono::{NaiveDate, Utc};
+use chrono::{Datelike, NaiveDate, Utc};
 
 use crate::{
     city::City,
@@ -243,9 +240,23 @@ impl GameService {
     }
 
     fn city_for_date(&self, date: NaiveDate) -> &City {
-        let seed = hash_seed(date.to_string().as_str());
-        let idx = seed % self.cities.len();
-        &self.cities[idx]
+        let city_count = self.cities.len();
+        if city_count == 1 {
+            return &self.cities[0];
+        }
+
+        let day_number = i64::from(date.num_days_from_ce());
+        let cycle = day_number.div_euclid(city_count as i64);
+        let offset = day_number.rem_euclid(city_count as i64) as usize;
+
+        let mut order = city_order_for_cycle(&self.cities, cycle);
+
+        let previous_order = city_order_for_cycle(&self.cities, cycle - 1);
+        if previous_order[city_count - 1] == order[0] {
+            order.rotate_left(1);
+        }
+
+        &self.cities[order[offset]]
     }
 
     fn stage_kind_for_date(date: NaiveDate) -> StageThreeKind {
@@ -259,9 +270,38 @@ impl GameService {
 }
 
 fn hash_seed(input: &str) -> usize {
-    let mut hasher = DefaultHasher::new();
-    input.hash(&mut hasher);
-    hasher.finish() as usize
+    seeded_hash(input.as_bytes(), 0x9E37_79B9_7F4A_7C15) as usize
+}
+
+fn city_order_for_cycle(cities: &[City], cycle: i64) -> Vec<usize> {
+    let mut order = (0..cities.len()).collect::<Vec<_>>();
+    let cycle_seed = cycle as u64;
+
+    order.sort_by(|left, right| {
+        let left_city = &cities[*left];
+        let right_city = &cities[*right];
+
+        let left_hash = seeded_hash(left_city.id.as_bytes(), cycle_seed);
+        let right_hash = seeded_hash(right_city.id.as_bytes(), cycle_seed);
+
+        left_hash
+            .cmp(&right_hash)
+            .then_with(|| left_city.id.cmp(&right_city.id))
+    });
+
+    order
+}
+
+fn seeded_hash(input: &[u8], seed: u64) -> u64 {
+    const FNV_OFFSET_BASIS: u64 = 0xcbf29ce484222325;
+    const FNV_PRIME: u64 = 0x100000001b3;
+
+    let mut hash = FNV_OFFSET_BASIS ^ seed.rotate_left(13);
+    for byte in input {
+        hash ^= u64::from(*byte);
+        hash = hash.wrapping_mul(FNV_PRIME);
+    }
+    hash
 }
 
 fn normalize_word(input: &str) -> String {

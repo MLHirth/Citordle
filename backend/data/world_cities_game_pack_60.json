@@ -1,0 +1,5582 @@
+[
+  {
+    "id": "paris",
+    "name": "Paris",
+    "country": "France",
+    "country_code": "FR",
+    "secret_word": "croissant",
+    "activities": [
+      "walk along the Seine",
+      "visit art museums",
+      "sit at a sidewalk cafe"
+    ],
+    "known_for": "the Eiffel Tower",
+    "famous_person": "Victor Hugo",
+    "popular_item": "buttery pastries",
+    "map_svg": "M18 15 L70 10 L130 20 L180 45 L170 80 L120 102 L72 108 L34 92 L12 60 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "France",
+      "Belgium",
+      "Italy",
+      "Spain"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Bonjour, bienvenue a Paris!",
+      "options": [
+        "Hello, welcome to Paris!",
+        "Good night from Paris!",
+        "Paris has many bridges.",
+        "We leave Paris tomorrow."
+      ],
+      "answer": "Hello, welcome to Paris!"
+    },
+    "trivia": {
+      "prompt": "Which museum in Paris is home to the Mona Lisa?",
+      "options": [
+        "Musee d'Orsay",
+        "The Louvre",
+        "Pompidou Center",
+        "Petit Palais"
+      ],
+      "answer": "The Louvre"
+    },
+    "drawing_prompt": "Draw the Eiffel Tower silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.06
+      ],
+      [
+        0.42,
+        0.2
+      ],
+      [
+        0.35,
+        0.38
+      ],
+      [
+        0.29,
+        0.78
+      ],
+      [
+        0.37,
+        0.78
+      ],
+      [
+        0.44,
+        0.47
+      ],
+      [
+        0.56,
+        0.47
+      ],
+      [
+        0.63,
+        0.78
+      ],
+      [
+        0.71,
+        0.78
+      ],
+      [
+        0.65,
+        0.38
+      ],
+      [
+        0.58,
+        0.2
+      ],
+      [
+        0.5,
+        0.06
+      ]
+    ]
+  },
+  {
+    "id": "tokyo",
+    "name": "Tokyo",
+    "country": "Japan",
+    "country_code": "JP",
+    "secret_word": "sushi",
+    "activities": [
+      "explore neon districts",
+      "visit anime and game arcades",
+      "eat at conveyor-belt restaurants"
+    ],
+    "known_for": "fast trains and tech culture",
+    "famous_person": "Hayao Miyazaki",
+    "popular_item": "fresh sushi",
+    "map_svg": "M28 14 L65 18 L92 30 L120 22 L145 35 L174 64 L160 92 L112 104 L80 98 L46 84 L26 56 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Japan",
+      "South Korea",
+      "China",
+      "Taiwan"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Tokyo wa oishii sushi de yuumei desu.",
+      "options": [
+        "Tokyo is famous for tasty sushi.",
+        "Tokyo has no seafood markets.",
+        "Tokyo is colder than Hokkaido.",
+        "Tokyo is a quiet village."
+      ],
+      "answer": "Tokyo is famous for tasty sushi."
+    },
+    "trivia": {
+      "prompt": "What is the busiest pedestrian crossing area in Tokyo?",
+      "options": [
+        "Akihabara",
+        "Shibuya",
+        "Ginza",
+        "Asakusa"
+      ],
+      "answer": "Shibuya"
+    },
+    "drawing_prompt": "Draw Tokyo Tower.",
+    "drawing_template": [
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.45,
+        0.18
+      ],
+      [
+        0.4,
+        0.36
+      ],
+      [
+        0.33,
+        0.82
+      ],
+      [
+        0.67,
+        0.82
+      ],
+      [
+        0.6,
+        0.36
+      ],
+      [
+        0.55,
+        0.18
+      ],
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.42,
+        0.56
+      ],
+      [
+        0.58,
+        0.56
+      ],
+      [
+        0.42,
+        0.56
+      ]
+    ]
+  },
+  {
+    "id": "new-york",
+    "name": "New York City",
+    "country": "United States",
+    "country_code": "US",
+    "secret_word": "bagel",
+    "activities": [
+      "watch Broadway shows",
+      "ride the subway",
+      "walk through Central Park"
+    ],
+    "known_for": "Times Square and skyscrapers",
+    "famous_person": "Alicia Keys",
+    "popular_item": "classic bagels",
+    "map_svg": "M12 22 L45 10 L78 20 L98 48 L126 36 L162 58 L182 92 L140 104 L92 110 L50 98 L20 70 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom"
+    ],
+    "duolingo": {
+      "prompt": "Translate: La ciudad nunca duerme.",
+      "options": [
+        "The city never sleeps.",
+        "The city closes early.",
+        "The city has no taxis.",
+        "The city is underground."
+      ],
+      "answer": "The city never sleeps."
+    },
+    "trivia": {
+      "prompt": "Which NYC borough is Coney Island in?",
+      "options": [
+        "Queens",
+        "Brooklyn",
+        "Bronx",
+        "Manhattan"
+      ],
+      "answer": "Brooklyn"
+    },
+    "drawing_prompt": "Draw the Empire State Building silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.46,
+        0.2
+      ],
+      [
+        0.43,
+        0.34
+      ],
+      [
+        0.38,
+        0.52
+      ],
+      [
+        0.38,
+        0.78
+      ],
+      [
+        0.62,
+        0.78
+      ],
+      [
+        0.62,
+        0.52
+      ],
+      [
+        0.57,
+        0.34
+      ],
+      [
+        0.54,
+        0.2
+      ],
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.54,
+        0.02
+      ],
+      [
+        0.5,
+        0.08
+      ]
+    ]
+  },
+  {
+    "id": "rio",
+    "name": "Rio de Janeiro",
+    "country": "Brazil",
+    "country_code": "BR",
+    "secret_word": "samba",
+    "activities": [
+      "relax at Copacabana",
+      "ride cable cars",
+      "join carnival parades"
+    ],
+    "known_for": "Christ the Redeemer",
+    "famous_person": "Paulo Coelho",
+    "popular_item": "street barbecue snacks",
+    "map_svg": "M24 20 L72 12 L104 18 L146 32 L174 58 L168 88 L134 108 L84 106 L44 86 L18 54 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Brazil",
+      "Argentina",
+      "Chile",
+      "Portugal"
+    ],
+    "duolingo": {
+      "prompt": "Translate: O Rio e famoso pelo samba.",
+      "options": [
+        "Rio is famous for samba.",
+        "Rio is famous for snow.",
+        "Rio has no beaches.",
+        "Rio is in Europe."
+      ],
+      "answer": "Rio is famous for samba."
+    },
+    "trivia": {
+      "prompt": "What mountain overlooks Rio with a cable car route?",
+      "options": [
+        "Sugarloaf Mountain",
+        "Table Mountain",
+        "Mount Fuji",
+        "Mount Etna"
+      ],
+      "answer": "Sugarloaf Mountain"
+    },
+    "drawing_prompt": "Draw Christ the Redeemer.",
+    "drawing_template": [
+      [
+        0.5,
+        0.2
+      ],
+      [
+        0.5,
+        0.62
+      ],
+      [
+        0.27,
+        0.36
+      ],
+      [
+        0.73,
+        0.36
+      ],
+      [
+        0.5,
+        0.62
+      ],
+      [
+        0.44,
+        0.78
+      ],
+      [
+        0.56,
+        0.78
+      ],
+      [
+        0.5,
+        0.62
+      ]
+    ]
+  },
+  {
+    "id": "cairo",
+    "name": "Cairo",
+    "country": "Egypt",
+    "country_code": "EG",
+    "secret_word": "pyramid",
+    "activities": [
+      "tour ancient sites",
+      "cruise the Nile",
+      "shop in historic bazaars"
+    ],
+    "known_for": "the Pyramids of Giza",
+    "famous_person": "Naguib Mahfouz",
+    "popular_item": "koshari",
+    "map_svg": "M16 18 L58 14 L104 22 L136 44 L172 58 L178 86 L138 106 L84 104 L42 88 L14 56 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Egypt",
+      "Jordan",
+      "Morocco",
+      "Turkey"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Al Qahira mashhura bil ahramat.",
+      "options": [
+        "Cairo is famous for the pyramids.",
+        "Cairo is surrounded by glaciers.",
+        "Cairo has no river.",
+        "Cairo is a small island."
+      ],
+      "answer": "Cairo is famous for the pyramids."
+    },
+    "trivia": {
+      "prompt": "Which river runs through Cairo?",
+      "options": [
+        "Nile",
+        "Amazon",
+        "Danube",
+        "Rhine"
+      ],
+      "answer": "Nile"
+    },
+    "drawing_prompt": "Draw the Great Pyramid of Giza.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.4,
+        0.28
+      ],
+      [
+        0.6,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.45,
+        0.78
+      ],
+      [
+        0.64,
+        0.4
+      ],
+      [
+        0.8,
+        0.78
+      ],
+      [
+        0.45,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "barcelona",
+    "name": "Barcelona",
+    "country": "Spain",
+    "country_code": "ES",
+    "secret_word": "tapas",
+    "activities": [
+      "wander Las Ramblas",
+      "visit seaside markets",
+      "tour Gaudi architecture"
+    ],
+    "known_for": "the Sagrada Familia",
+    "famous_person": "Antoni Gaudi",
+    "popular_item": "tapas plates",
+    "map_svg": "M20 20 L60 12 L102 20 L138 26 L170 48 L166 78 L132 104 L82 108 L42 92 L16 58 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Spain",
+      "Portugal",
+      "Italy",
+      "France"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Barcelona es famosa por la arquitectura de Gaudi.",
+      "options": [
+        "Barcelona is famous for Gaudi architecture.",
+        "Barcelona has no old buildings.",
+        "Barcelona is known for polar nights.",
+        "Barcelona is in South America."
+      ],
+      "answer": "Barcelona is famous for Gaudi architecture."
+    },
+    "trivia": {
+      "prompt": "Which football club plays at Camp Nou?",
+      "options": [
+        "Real Madrid",
+        "Atletico Madrid",
+        "FC Barcelona",
+        "Valencia CF"
+      ],
+      "answer": "FC Barcelona"
+    },
+    "drawing_prompt": "Draw the Sagrada Familia facade.",
+    "drawing_template": [
+      [
+        0.28,
+        0.78
+      ],
+      [
+        0.3,
+        0.45
+      ],
+      [
+        0.34,
+        0.24
+      ],
+      [
+        0.38,
+        0.45
+      ],
+      [
+        0.4,
+        0.78
+      ],
+      [
+        0.44,
+        0.78
+      ],
+      [
+        0.46,
+        0.36
+      ],
+      [
+        0.5,
+        0.18
+      ],
+      [
+        0.54,
+        0.36
+      ],
+      [
+        0.56,
+        0.78
+      ],
+      [
+        0.62,
+        0.78
+      ],
+      [
+        0.64,
+        0.45
+      ],
+      [
+        0.68,
+        0.24
+      ],
+      [
+        0.72,
+        0.45
+      ],
+      [
+        0.74,
+        0.78
+      ],
+      [
+        0.28,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "london",
+    "name": "London",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "secret_word": "tea",
+    "activities": [
+      "ride a double-decker bus",
+      "visit major museums",
+      "walk along the Thames"
+    ],
+    "known_for": "Big Ben and royal landmarks",
+    "famous_person": "William Shakespeare",
+    "popular_item": "afternoon tea",
+    "map_svg": "M19 20 L49 16 L90 22 L129 23 L157 47 L174 77 L163 101 L121 111 L82 111 L45 88 L11 56 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "United Kingdom",
+      "Ireland",
+      "France",
+      "Netherlands"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Welcome to London, mind the gap!",
+      "options": [
+        "Welcome to London, watch the platform gap!",
+        "London has no famous landmarks.",
+        "London is a tiny village.",
+        "London is in Antarctica."
+      ],
+      "answer": "Welcome to London, watch the platform gap!"
+    },
+    "trivia": {
+      "prompt": "Which river runs through London?",
+      "options": [
+        "Seine",
+        "Thames",
+        "Danube",
+        "Tiber"
+      ],
+      "answer": "Thames"
+    },
+    "drawing_prompt": "Draw Big Ben (Elizabeth Tower) silhouette.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.32,
+        0.56
+      ],
+      [
+        0.5,
+        0.34
+      ],
+      [
+        0.68,
+        0.56
+      ],
+      [
+        0.8,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "rome",
+    "name": "Rome",
+    "country": "Italy",
+    "country_code": "IT",
+    "secret_word": "pasta",
+    "activities": [
+      "tour ancient ruins",
+      "eat gelato in piazzas",
+      "visit fountains and churches"
+    ],
+    "known_for": "the Colosseum",
+    "famous_person": "Federico Fellini",
+    "popular_item": "fresh pasta dishes",
+    "map_svg": "M17 25 L56 10 L88 16 L127 28 L164 52 L172 82 L161 95 L128 105 L80 105 L43 93 L18 61 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Italy",
+      "Greece",
+      "Spain",
+      "Croatia"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Roma e piena di storia antica.",
+      "options": [
+        "Rome is full of ancient history.",
+        "Rome has no famous landmarks.",
+        "Rome is a tiny village.",
+        "Rome is in Antarctica."
+      ],
+      "answer": "Rome is full of ancient history."
+    },
+    "trivia": {
+      "prompt": "Which famous amphitheater is in Rome?",
+      "options": [
+        "The Parthenon",
+        "The Colosseum",
+        "Pompeii Forum",
+        "Milan Cathedral"
+      ],
+      "answer": "The Colosseum"
+    },
+    "drawing_prompt": "Draw the Colosseum arches.",
+    "drawing_template": [
+      [
+        0.22,
+        0.78
+      ],
+      [
+        0.22,
+        0.44
+      ],
+      [
+        0.34,
+        0.3
+      ],
+      [
+        0.5,
+        0.22
+      ],
+      [
+        0.66,
+        0.3
+      ],
+      [
+        0.78,
+        0.44
+      ],
+      [
+        0.78,
+        0.78
+      ],
+      [
+        0.22,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "berlin",
+    "name": "Berlin",
+    "country": "Germany",
+    "country_code": "DE",
+    "secret_word": "pretzel",
+    "activities": [
+      "visit history museums",
+      "bike through neighborhoods",
+      "see street art"
+    ],
+    "known_for": "the Brandenburg Gate",
+    "famous_person": "Albert Einstein",
+    "popular_item": "currywurst",
+    "map_svg": "M15 19 L54 15 L86 21 L125 33 L162 46 L170 76 L159 100 L126 110 L78 110 L41 87 L16 55 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Germany",
+      "Austria",
+      "Poland",
+      "Czech Republic"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Berlin ist eine Stadt voller Geschichte.",
+      "options": [
+        "Berlin is a city full of history.",
+        "Berlin is a tiny village.",
+        "Berlin is in Antarctica.",
+        "Berlin has no famous landmarks."
+      ],
+      "answer": "Berlin is a city full of history."
+    },
+    "trivia": {
+      "prompt": "What wall once divided Berlin?",
+      "options": [
+        "Berlin Wall",
+        "Great Wall",
+        "Hadrian's Wall",
+        "Wailing Wall"
+      ],
+      "answer": "Berlin Wall"
+    },
+    "drawing_prompt": "Draw the Brandenburg Gate.",
+    "drawing_template": [
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.48,
+        0.28
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.78
+      ],
+      [
+        0.52,
+        0.28
+      ],
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.4,
+        0.36
+      ],
+      [
+        0.6,
+        0.36
+      ]
+    ]
+  },
+  {
+    "id": "amsterdam",
+    "name": "Amsterdam",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "secret_word": "canal",
+    "activities": [
+      "cycle beside canals",
+      "visit art museums",
+      "take a canal boat ride"
+    ],
+    "known_for": "its canals and bikes",
+    "famous_person": "Anne Frank",
+    "popular_item": "stroopwafels",
+    "map_svg": "M13 24 L52 9 L93 15 L123 27 L160 51 L177 81 L157 105 L124 104 L85 104 L39 92 L14 60 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Netherlands",
+      "Belgium",
+      "Denmark",
+      "Germany"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Amsterdam heeft veel mooie grachten.",
+      "options": [
+        "Amsterdam is a tiny village.",
+        "Amsterdam is in Antarctica.",
+        "Amsterdam has no famous landmarks.",
+        "Amsterdam has many beautiful canals."
+      ],
+      "answer": "Amsterdam has many beautiful canals."
+    },
+    "trivia": {
+      "prompt": "Amsterdam is famous for what type of waterways?",
+      "options": [
+        "Fjords",
+        "Canals",
+        "Glaciers",
+        "Deserts"
+      ],
+      "answer": "Canals"
+    },
+    "drawing_prompt": "Draw a canal house facade.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.36,
+        0.52
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.42
+      ],
+      [
+        0.68,
+        0.78
+      ],
+      [
+        0.76,
+        0.56
+      ],
+      [
+        0.86,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "lisbon",
+    "name": "Lisbon",
+    "country": "Portugal",
+    "country_code": "PT",
+    "secret_word": "tram",
+    "activities": [
+      "ride historic trams",
+      "listen to fado music",
+      "walk hilltop viewpoints"
+    ],
+    "known_for": "yellow trams and hill views",
+    "famous_person": "Fernando Pessoa",
+    "popular_item": "pastel de nata",
+    "map_svg": "M20 18 L50 14 L91 20 L130 32 L158 45 L175 75 L164 99 L122 109 L83 109 L46 97 L12 54 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Portugal",
+      "Spain",
+      "Italy",
+      "Greece"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Lisboa tem colinas e bondes famosos.",
+      "options": [
+        "Lisbon is in Antarctica.",
+        "Lisbon is a tiny village.",
+        "Lisbon has no famous landmarks.",
+        "Lisbon has hills and famous trams."
+      ],
+      "answer": "Lisbon has hills and famous trams."
+    },
+    "trivia": {
+      "prompt": "Which style of music is associated with Lisbon?",
+      "options": [
+        "Flamenco",
+        "Fado",
+        "Tango",
+        "Samba"
+      ],
+      "answer": "Fado"
+    },
+    "drawing_prompt": "Draw a tram silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.06
+      ],
+      [
+        0.46,
+        0.2
+      ],
+      [
+        0.42,
+        0.4
+      ],
+      [
+        0.36,
+        0.78
+      ],
+      [
+        0.64,
+        0.78
+      ],
+      [
+        0.58,
+        0.4
+      ],
+      [
+        0.54,
+        0.2
+      ],
+      [
+        0.5,
+        0.06
+      ]
+    ]
+  },
+  {
+    "id": "athens",
+    "name": "Athens",
+    "country": "Greece",
+    "country_code": "GR",
+    "secret_word": "olive",
+    "activities": [
+      "visit ancient ruins",
+      "walk lively squares",
+      "eat meze plates"
+    ],
+    "known_for": "the Acropolis",
+    "famous_person": "Socrates",
+    "popular_item": "olive oil dishes",
+    "map_svg": "M18 23 L48 19 L89 14 L128 26 L156 50 L173 80 L162 104 L120 103 L81 103 L44 91 L10 59 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Greece",
+      "Turkey",
+      "Italy",
+      "Cyprus"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Athina einai gemati archaia istoria.",
+      "options": [
+        "Athens is a tiny village.",
+        "Athens is full of ancient history.",
+        "Athens has no famous landmarks.",
+        "Athens is in Antarctica."
+      ],
+      "answer": "Athens is full of ancient history."
+    },
+    "trivia": {
+      "prompt": "Which ancient hilltop citadel overlooks Athens?",
+      "options": [
+        "Acropolis",
+        "Capitol",
+        "Forum",
+        "Pantheon"
+      ],
+      "answer": "Acropolis"
+    },
+    "drawing_prompt": "Draw the Parthenon columns.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.32,
+        0.56
+      ],
+      [
+        0.5,
+        0.34
+      ],
+      [
+        0.68,
+        0.56
+      ],
+      [
+        0.8,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "prague",
+    "name": "Prague",
+    "country": "Czech Republic",
+    "country_code": "CZ",
+    "secret_word": "castle",
+    "activities": [
+      "walk over stone bridges",
+      "explore old town squares",
+      "visit castle grounds"
+    ],
+    "known_for": "Charles Bridge and old town",
+    "famous_person": "Franz Kafka",
+    "popular_item": "trdelnik",
+    "map_svg": "M16 17 L55 13 L87 19 L126 31 L163 55 L171 74 L160 98 L127 108 L79 108 L42 96 L17 53 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Czech Republic",
+      "Poland",
+      "Slovakia",
+      "Austria"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Praha ma krasne historicke centrum.",
+      "options": [
+        "Prague is a tiny village.",
+        "Prague has no famous landmarks.",
+        "Prague has a beautiful historic center.",
+        "Prague is in Antarctica."
+      ],
+      "answer": "Prague has a beautiful historic center."
+    },
+    "trivia": {
+      "prompt": "Which river runs through Prague?",
+      "options": [
+        "Vltava",
+        "Elbe",
+        "Danube",
+        "Oder"
+      ],
+      "answer": "Vltava"
+    },
+    "drawing_prompt": "Draw Charles Bridge towers.",
+    "drawing_template": [
+      [
+        0.22,
+        0.78
+      ],
+      [
+        0.22,
+        0.44
+      ],
+      [
+        0.34,
+        0.3
+      ],
+      [
+        0.5,
+        0.22
+      ],
+      [
+        0.66,
+        0.3
+      ],
+      [
+        0.78,
+        0.44
+      ],
+      [
+        0.78,
+        0.78
+      ],
+      [
+        0.22,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "vienna",
+    "name": "Vienna",
+    "country": "Austria",
+    "country_code": "AT",
+    "secret_word": "waltz",
+    "activities": [
+      "visit palaces",
+      "hear classical concerts",
+      "relax in coffee houses"
+    ],
+    "known_for": "classical music heritage",
+    "famous_person": "Wolfgang Amadeus Mozart",
+    "popular_item": "Sachertorte",
+    "map_svg": "M14 22 L53 18 L94 13 L124 25 L161 49 L178 79 L158 103 L125 112 L86 102 L40 90 L15 58 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Austria",
+      "Hungary",
+      "Germany",
+      "Switzerland"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Wien ist beruehmt fuer Musik und Kaffeehaeuser.",
+      "options": [
+        "Vienna is in Antarctica.",
+        "Vienna has no famous landmarks.",
+        "Vienna is a tiny village.",
+        "Vienna is famous for music and coffee houses."
+      ],
+      "answer": "Vienna is famous for music and coffee houses."
+    },
+    "trivia": {
+      "prompt": "Vienna is the capital of which country?",
+      "options": [
+        "Austria",
+        "Hungary",
+        "Germany",
+        "Switzerland"
+      ],
+      "answer": "Austria"
+    },
+    "drawing_prompt": "Draw a palace dome silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.48,
+        0.28
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.78
+      ],
+      [
+        0.52,
+        0.28
+      ],
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.4,
+        0.36
+      ],
+      [
+        0.6,
+        0.36
+      ]
+    ]
+  },
+  {
+    "id": "budapest",
+    "name": "Budapest",
+    "country": "Hungary",
+    "country_code": "HU",
+    "secret_word": "paprika",
+    "activities": [
+      "soak in thermal baths",
+      "cross river bridges",
+      "visit castle hill"
+    ],
+    "known_for": "the Danube and thermal baths",
+    "famous_person": "Bela Bartok",
+    "popular_item": "goulash",
+    "map_svg": "M12 16 L51 12 L92 18 L122 30 L159 54 L176 73 L156 97 L123 107 L84 107 L38 95 L13 63 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Hungary",
+      "Romania",
+      "Poland",
+      "Serbia"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Budapest hires a gyogyfurdokrol.",
+      "options": [
+        "Budapest has no famous landmarks.",
+        "Budapest is famous for thermal baths.",
+        "Budapest is in Antarctica.",
+        "Budapest is a tiny village."
+      ],
+      "answer": "Budapest is famous for thermal baths."
+    },
+    "trivia": {
+      "prompt": "Which river divides Buda and Pest?",
+      "options": [
+        "Danube",
+        "Rhine",
+        "Seine",
+        "Po"
+      ],
+      "answer": "Danube"
+    },
+    "drawing_prompt": "Draw the Chain Bridge silhouette.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.36,
+        0.52
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.42
+      ],
+      [
+        0.68,
+        0.78
+      ],
+      [
+        0.76,
+        0.56
+      ],
+      [
+        0.86,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "stockholm",
+    "name": "Stockholm",
+    "country": "Sweden",
+    "country_code": "SE",
+    "secret_word": "sauna",
+    "activities": [
+      "explore old town islands",
+      "ride ferries",
+      "visit design shops"
+    ],
+    "known_for": "islands and waterways",
+    "famous_person": "Greta Garbo",
+    "popular_item": "cinnamon buns",
+    "map_svg": "M19 21 L49 17 L90 23 L129 24 L157 48 L174 78 L163 102 L121 112 L82 101 L45 89 L11 57 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Sweden",
+      "Norway",
+      "Finland",
+      "Denmark"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Stockholm ar byggt pa manga oar.",
+      "options": [
+        "Stockholm has no famous landmarks.",
+        "Stockholm is built on many islands.",
+        "Stockholm is in Antarctica.",
+        "Stockholm is a tiny village."
+      ],
+      "answer": "Stockholm is built on many islands."
+    },
+    "trivia": {
+      "prompt": "Stockholm is the capital of which country?",
+      "options": [
+        "Sweden",
+        "Norway",
+        "Finland",
+        "Denmark"
+      ],
+      "answer": "Sweden"
+    },
+    "drawing_prompt": "Draw City Hall tower silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.06
+      ],
+      [
+        0.46,
+        0.2
+      ],
+      [
+        0.42,
+        0.4
+      ],
+      [
+        0.36,
+        0.78
+      ],
+      [
+        0.64,
+        0.78
+      ],
+      [
+        0.58,
+        0.4
+      ],
+      [
+        0.54,
+        0.2
+      ],
+      [
+        0.5,
+        0.06
+      ]
+    ]
+  },
+  {
+    "id": "oslo",
+    "name": "Oslo",
+    "country": "Norway",
+    "country_code": "NO",
+    "secret_word": "fjord",
+    "activities": [
+      "visit waterfront museums",
+      "see fjord views",
+      "walk modern opera district"
+    ],
+    "known_for": "fjord access and modern architecture",
+    "famous_person": "Henrik Ibsen",
+    "popular_item": "salmon dishes",
+    "map_svg": "M17 15 L56 11 L88 17 L127 29 L164 53 L172 83 L161 96 L128 106 L80 106 L43 94 L18 62 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Norway",
+      "Sweden",
+      "Iceland",
+      "Denmark"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Oslo ligger ved en fjord.",
+      "options": [
+        "Oslo is in Antarctica.",
+        "Oslo is a tiny village.",
+        "Oslo lies by a fjord.",
+        "Oslo has no famous landmarks."
+      ],
+      "answer": "Oslo lies by a fjord."
+    },
+    "trivia": {
+      "prompt": "Oslo is the capital of which country?",
+      "options": [
+        "Norway",
+        "Sweden",
+        "Iceland",
+        "Denmark"
+      ],
+      "answer": "Norway"
+    },
+    "drawing_prompt": "Draw the opera house roofline.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.32,
+        0.56
+      ],
+      [
+        0.5,
+        0.34
+      ],
+      [
+        0.68,
+        0.56
+      ],
+      [
+        0.8,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "helsinki",
+    "name": "Helsinki",
+    "country": "Finland",
+    "country_code": "FI",
+    "secret_word": "sauna",
+    "activities": [
+      "visit design districts",
+      "ride ferries to islands",
+      "relax in saunas"
+    ],
+    "known_for": "design culture and seaside islands",
+    "famous_person": "Jean Sibelius",
+    "popular_item": "salmon soup",
+    "map_svg": "M15 20 L54 16 L86 22 L125 23 L162 47 L170 77 L159 101 L126 111 L78 111 L41 88 L16 56 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Finland",
+      "Estonia",
+      "Latvia",
+      "Sweden"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Helsinki tunnetaan saaristosta ja saunoista.",
+      "options": [
+        "Helsinki is in Antarctica.",
+        "Helsinki is a tiny village.",
+        "Helsinki is known for archipelago islands and saunas.",
+        "Helsinki has no famous landmarks."
+      ],
+      "answer": "Helsinki is known for archipelago islands and saunas."
+    },
+    "trivia": {
+      "prompt": "Helsinki is the capital of which country?",
+      "options": [
+        "Finland",
+        "Estonia",
+        "Latvia",
+        "Sweden"
+      ],
+      "answer": "Finland"
+    },
+    "drawing_prompt": "Draw a cathedral dome silhouette.",
+    "drawing_template": [
+      [
+        0.22,
+        0.78
+      ],
+      [
+        0.22,
+        0.44
+      ],
+      [
+        0.34,
+        0.3
+      ],
+      [
+        0.5,
+        0.22
+      ],
+      [
+        0.66,
+        0.3
+      ],
+      [
+        0.78,
+        0.44
+      ],
+      [
+        0.78,
+        0.78
+      ],
+      [
+        0.22,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "dublin",
+    "name": "Dublin",
+    "country": "Ireland",
+    "country_code": "IE",
+    "secret_word": "harp",
+    "activities": [
+      "listen to live music",
+      "walk georgian streets",
+      "visit literary museums"
+    ],
+    "known_for": "pub culture and literary history",
+    "famous_person": "James Joyce",
+    "popular_item": "soda bread",
+    "map_svg": "M13 25 L52 10 L93 16 L123 28 L160 52 L177 82 L157 95 L124 105 L85 105 L39 93 L14 61 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Ireland",
+      "United Kingdom",
+      "Iceland",
+      "Netherlands"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Ta Dublin lan de stair agus ceoil.",
+      "options": [
+        "Dublin is a tiny village.",
+        "Dublin has no famous landmarks.",
+        "Dublin is in Antarctica.",
+        "Dublin is full of history and music."
+      ],
+      "answer": "Dublin is full of history and music."
+    },
+    "trivia": {
+      "prompt": "Which river runs through Dublin?",
+      "options": [
+        "Shannon",
+        "Liffey",
+        "Thames",
+        "Clyde"
+      ],
+      "answer": "Liffey"
+    },
+    "drawing_prompt": "Draw the Ha'penny Bridge arch.",
+    "drawing_template": [
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.48,
+        0.28
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.78
+      ],
+      [
+        0.52,
+        0.28
+      ],
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.4,
+        0.36
+      ],
+      [
+        0.6,
+        0.36
+      ]
+    ]
+  },
+  {
+    "id": "edinburgh",
+    "name": "Edinburgh",
+    "country": "United Kingdom",
+    "country_code": "GB",
+    "secret_word": "castle",
+    "activities": [
+      "walk the Royal Mile",
+      "visit the castle",
+      "climb Arthur's Seat"
+    ],
+    "known_for": "its hilltop castle and festivals",
+    "famous_person": "Robert Louis Stevenson",
+    "popular_item": "shortbread",
+    "map_svg": "M20 19 L50 15 L91 21 L130 33 L158 46 L175 76 L164 100 L122 110 L83 110 L46 87 L12 55 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "United Kingdom",
+      "Ireland",
+      "France",
+      "Norway"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Edinburgh is famous for its castle and festivals.",
+      "options": [
+        "Edinburgh is famous for its castle and festivals.",
+        "Edinburgh is a tiny village.",
+        "Edinburgh is in Antarctica.",
+        "Edinburgh has no famous landmarks."
+      ],
+      "answer": "Edinburgh is famous for its castle and festivals."
+    },
+    "trivia": {
+      "prompt": "What hill offers views over Edinburgh?",
+      "options": [
+        "Snowdon",
+        "Arthur's Seat",
+        "Ben Nevis",
+        "Scafell Pike"
+      ],
+      "answer": "Arthur's Seat"
+    },
+    "drawing_prompt": "Draw Edinburgh Castle silhouette.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.36,
+        0.52
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.42
+      ],
+      [
+        0.68,
+        0.78
+      ],
+      [
+        0.76,
+        0.56
+      ],
+      [
+        0.86,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "reykjavik",
+    "name": "Reykjavik",
+    "country": "Iceland",
+    "country_code": "IS",
+    "secret_word": "aurora",
+    "activities": [
+      "visit geothermal pools",
+      "see colorful houses",
+      "take northern lights tours"
+    ],
+    "known_for": "geothermal culture and colorful streets",
+    "famous_person": "Bjoerk",
+    "popular_item": "skyr",
+    "map_svg": "M18 24 L48 9 L89 15 L128 27 L156 51 L173 81 L162 105 L120 104 L81 104 L44 92 L10 60 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Iceland",
+      "Greenland",
+      "Norway",
+      "Finland"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Reykjavik er hofudborg Islands.",
+      "options": [
+        "Reykjavik is in Antarctica.",
+        "Reykjavik is the capital of Iceland.",
+        "Reykjavik is a tiny village.",
+        "Reykjavik has no famous landmarks."
+      ],
+      "answer": "Reykjavik is the capital of Iceland."
+    },
+    "trivia": {
+      "prompt": "Reykjavik is the capital of which country?",
+      "options": [
+        "Iceland",
+        "Greenland",
+        "Norway",
+        "Finland"
+      ],
+      "answer": "Iceland"
+    },
+    "drawing_prompt": "Draw Hallgrimskirkja tower silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.06
+      ],
+      [
+        0.46,
+        0.2
+      ],
+      [
+        0.42,
+        0.4
+      ],
+      [
+        0.36,
+        0.78
+      ],
+      [
+        0.64,
+        0.78
+      ],
+      [
+        0.58,
+        0.4
+      ],
+      [
+        0.54,
+        0.2
+      ],
+      [
+        0.5,
+        0.06
+      ]
+    ]
+  },
+  {
+    "id": "moscow",
+    "name": "Moscow",
+    "country": "Russia",
+    "country_code": "RU",
+    "secret_word": "matryoshka",
+    "activities": [
+      "visit Red Square",
+      "see historic cathedrals",
+      "ride deep metro stations"
+    ],
+    "known_for": "Red Square and the Kremlin",
+    "famous_person": "Leo Tolstoy",
+    "popular_item": "pelmeni",
+    "map_svg": "M16 18 L55 14 L87 20 L126 32 L163 45 L171 75 L160 99 L127 109 L79 109 L42 97 L17 54 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Russia",
+      "Ukraine",
+      "Belarus",
+      "Kazakhstan"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Moskva izvestna Krasnoy ploshchadyu.",
+      "options": [
+        "Moscow is a tiny village.",
+        "Moscow is famous for Red Square.",
+        "Moscow is in Antarctica.",
+        "Moscow has no famous landmarks."
+      ],
+      "answer": "Moscow is famous for Red Square."
+    },
+    "trivia": {
+      "prompt": "What square is Moscow famous for?",
+      "options": [
+        "Red Square",
+        "Trafalgar Square",
+        "Times Square",
+        "Dam Square"
+      ],
+      "answer": "Red Square"
+    },
+    "drawing_prompt": "Draw Saint Basil domes silhouette.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.32,
+        0.56
+      ],
+      [
+        0.5,
+        0.34
+      ],
+      [
+        0.68,
+        0.56
+      ],
+      [
+        0.8,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "dubai",
+    "name": "Dubai",
+    "country": "United Arab Emirates",
+    "country_code": "AE",
+    "secret_word": "desert",
+    "activities": [
+      "visit modern malls",
+      "see desert dunes",
+      "walk marina promenades"
+    ],
+    "known_for": "the Burj Khalifa",
+    "famous_person": "Mohammed bin Rashid Al Maktoum",
+    "popular_item": "dates",
+    "map_svg": "M14 23 L53 19 L94 14 L124 26 L161 50 L178 80 L158 104 L125 103 L86 103 L40 91 L15 59 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "United Arab Emirates",
+      "Qatar",
+      "Saudi Arabia",
+      "Kuwait"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Dubai is known for very tall skyscrapers.",
+      "options": [
+        "Dubai is in Antarctica.",
+        "Dubai is a tiny village.",
+        "Dubai has no famous landmarks.",
+        "Dubai is known for very tall skyscrapers."
+      ],
+      "answer": "Dubai is known for very tall skyscrapers."
+    },
+    "trivia": {
+      "prompt": "Which supertall building is in Dubai?",
+      "options": [
+        "Burj Khalifa",
+        "Petronas Towers",
+        "Taipei 101",
+        "Shard"
+      ],
+      "answer": "Burj Khalifa"
+    },
+    "drawing_prompt": "Draw the Burj Khalifa silhouette.",
+    "drawing_template": [
+      [
+        0.22,
+        0.78
+      ],
+      [
+        0.22,
+        0.44
+      ],
+      [
+        0.34,
+        0.3
+      ],
+      [
+        0.5,
+        0.22
+      ],
+      [
+        0.66,
+        0.3
+      ],
+      [
+        0.78,
+        0.44
+      ],
+      [
+        0.78,
+        0.78
+      ],
+      [
+        0.22,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "jerusalem",
+    "name": "Jerusalem",
+    "country": "Israel",
+    "country_code": "IL",
+    "secret_word": "stone",
+    "activities": [
+      "walk ancient stone streets",
+      "visit historic quarters",
+      "explore markets"
+    ],
+    "known_for": "sacred sites and old city walls",
+    "famous_person": "Golda Meir",
+    "popular_item": "falafel",
+    "map_svg": "M12 17 L51 13 L92 19 L122 31 L159 55 L176 74 L156 98 L123 108 L84 108 L38 96 L13 53 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Israel",
+      "Jordan",
+      "Lebanon",
+      "Egypt"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Jerusalem has many sacred historical sites.",
+      "options": [
+        "Jerusalem has many sacred historical sites.",
+        "Jerusalem has no famous landmarks.",
+        "Jerusalem is in Antarctica.",
+        "Jerusalem is a tiny village."
+      ],
+      "answer": "Jerusalem has many sacred historical sites."
+    },
+    "trivia": {
+      "prompt": "Jerusalem's historic center is often called what?",
+      "options": [
+        "Old City",
+        "Golden Quarter",
+        "Stone Ring",
+        "Temple Park"
+      ],
+      "answer": "Old City"
+    },
+    "drawing_prompt": "Draw old city walls silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.48,
+        0.28
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.78
+      ],
+      [
+        0.52,
+        0.28
+      ],
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.4,
+        0.36
+      ],
+      [
+        0.6,
+        0.36
+      ]
+    ]
+  },
+  {
+    "id": "doha",
+    "name": "Doha",
+    "country": "Qatar",
+    "country_code": "QA",
+    "secret_word": "souq",
+    "activities": [
+      "walk the corniche",
+      "visit museums",
+      "shop in souqs"
+    ],
+    "known_for": "modern skyline and waterfront corniche",
+    "famous_person": "Tamim bin Hamad Al Thani",
+    "popular_item": "machboos",
+    "map_svg": "M19 22 L49 18 L90 13 L129 25 L157 49 L174 79 L163 103 L121 112 L82 102 L45 90 L11 58 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Qatar",
+      "Bahrain",
+      "Kuwait",
+      "Oman"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Doha has a modern skyline by the sea.",
+      "options": [
+        "Doha is in Antarctica.",
+        "Doha has a modern skyline by the sea.",
+        "Doha is a tiny village.",
+        "Doha has no famous landmarks."
+      ],
+      "answer": "Doha has a modern skyline by the sea."
+    },
+    "trivia": {
+      "prompt": "Doha is the capital of which country?",
+      "options": [
+        "Qatar",
+        "Bahrain",
+        "Kuwait",
+        "Oman"
+      ],
+      "answer": "Qatar"
+    },
+    "drawing_prompt": "Draw a skyline with a museum dome.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.36,
+        0.52
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.42
+      ],
+      [
+        0.68,
+        0.78
+      ],
+      [
+        0.76,
+        0.56
+      ],
+      [
+        0.86,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "riyadh",
+    "name": "Riyadh",
+    "country": "Saudi Arabia",
+    "country_code": "SA",
+    "secret_word": "date",
+    "activities": [
+      "visit modern districts",
+      "explore souqs",
+      "see desert edges"
+    ],
+    "known_for": "modern capital and desert surroundings",
+    "famous_person": "Nizar Qabbani",
+    "popular_item": "kabsa",
+    "map_svg": "M17 16 L56 12 L88 18 L127 30 L164 54 L172 73 L161 97 L128 107 L80 107 L43 95 L18 63 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Saudi Arabia",
+      "UAE",
+      "Oman",
+      "Jordan"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Riyadh is a large capital city in Saudi Arabia.",
+      "options": [
+        "Riyadh is a tiny village.",
+        "Riyadh has no famous landmarks.",
+        "Riyadh is a large capital city in Saudi Arabia.",
+        "Riyadh is in Antarctica."
+      ],
+      "answer": "Riyadh is a large capital city in Saudi Arabia."
+    },
+    "trivia": {
+      "prompt": "Riyadh is the capital of which country?",
+      "options": [
+        "Saudi Arabia",
+        "UAE",
+        "Oman",
+        "Jordan"
+      ],
+      "answer": "Saudi Arabia"
+    },
+    "drawing_prompt": "Draw Kingdom Centre tower silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.06
+      ],
+      [
+        0.46,
+        0.2
+      ],
+      [
+        0.42,
+        0.4
+      ],
+      [
+        0.36,
+        0.78
+      ],
+      [
+        0.64,
+        0.78
+      ],
+      [
+        0.58,
+        0.4
+      ],
+      [
+        0.54,
+        0.2
+      ],
+      [
+        0.5,
+        0.06
+      ]
+    ]
+  },
+  {
+    "id": "tbilisi",
+    "name": "Tbilisi",
+    "country": "Georgia",
+    "country_code": "GE",
+    "secret_word": "sulfur",
+    "activities": [
+      "ride the cable car",
+      "walk old town lanes",
+      "try georgian cuisine"
+    ],
+    "known_for": "hillside old town and sulfur baths",
+    "famous_person": "Shota Rustaveli",
+    "popular_item": "khachapuri",
+    "map_svg": "M15 21 L54 17 L86 23 L125 24 L162 48 L170 78 L159 102 L126 112 L78 101 L41 89 L16 57 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Georgia",
+      "Armenia",
+      "Azerbaijan",
+      "Turkey"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Tbilisi is known for sulfur baths and hills.",
+      "options": [
+        "Tbilisi is a tiny village.",
+        "Tbilisi is known for sulfur baths and hills.",
+        "Tbilisi has no famous landmarks.",
+        "Tbilisi is in Antarctica."
+      ],
+      "answer": "Tbilisi is known for sulfur baths and hills."
+    },
+    "trivia": {
+      "prompt": "Which river runs through Tbilisi?",
+      "options": [
+        "Kura",
+        "Danube",
+        "Volga",
+        "Aras"
+      ],
+      "answer": "Kura"
+    },
+    "drawing_prompt": "Draw a hillside fortress silhouette.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.32,
+        0.56
+      ],
+      [
+        0.5,
+        0.34
+      ],
+      [
+        0.68,
+        0.56
+      ],
+      [
+        0.8,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "baku",
+    "name": "Baku",
+    "country": "Azerbaijan",
+    "country_code": "AZ",
+    "secret_word": "carpet",
+    "activities": [
+      "walk the boulevard",
+      "visit old city walls",
+      "see modern towers"
+    ],
+    "known_for": "Caspian waterfront and flame towers",
+    "famous_person": "Gara Garayev",
+    "popular_item": "plov",
+    "map_svg": "M13 15 L52 11 L93 17 L123 29 L160 53 L177 83 L157 96 L124 106 L85 106 L39 94 L14 62 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Azerbaijan",
+      "Kazakhstan",
+      "Georgia",
+      "Armenia"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Baku sits on the Caspian Sea.",
+      "options": [
+        "Baku is a tiny village.",
+        "Baku has no famous landmarks.",
+        "Baku is in Antarctica.",
+        "Baku sits on the Caspian Sea."
+      ],
+      "answer": "Baku sits on the Caspian Sea."
+    },
+    "trivia": {
+      "prompt": "Baku lies on which body of water?",
+      "options": [
+        "Black Sea",
+        "Caspian Sea",
+        "Mediterranean Sea",
+        "Red Sea"
+      ],
+      "answer": "Caspian Sea"
+    },
+    "drawing_prompt": "Draw Flame Towers silhouette.",
+    "drawing_template": [
+      [
+        0.22,
+        0.78
+      ],
+      [
+        0.22,
+        0.44
+      ],
+      [
+        0.34,
+        0.3
+      ],
+      [
+        0.5,
+        0.22
+      ],
+      [
+        0.66,
+        0.3
+      ],
+      [
+        0.78,
+        0.44
+      ],
+      [
+        0.78,
+        0.78
+      ],
+      [
+        0.22,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "delhi",
+    "name": "Delhi",
+    "country": "India",
+    "country_code": "IN",
+    "secret_word": "chai",
+    "activities": [
+      "visit old forts",
+      "shop in bazaars",
+      "eat street snacks"
+    ],
+    "known_for": "historic forts and busy markets",
+    "famous_person": "Rabindranath Tagore",
+    "popular_item": "chaat",
+    "map_svg": "M20 20 L50 16 L91 22 L130 23 L158 47 L175 77 L164 101 L122 111 L83 111 L46 88 L12 56 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "India",
+      "Pakistan",
+      "Bangladesh",
+      "Nepal"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Dilli mein purane kile aur bazaar hain.",
+      "options": [
+        "Delhi is a tiny village.",
+        "Delhi has no famous landmarks.",
+        "Delhi has old forts and markets.",
+        "Delhi is in Antarctica."
+      ],
+      "answer": "Delhi has old forts and markets."
+    },
+    "trivia": {
+      "prompt": "Which fort is a famous landmark in Delhi?",
+      "options": [
+        "Red Fort",
+        "Amber Fort",
+        "Golconda Fort",
+        "Mehrangarh Fort"
+      ],
+      "answer": "Red Fort"
+    },
+    "drawing_prompt": "Draw India Gate silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.48,
+        0.28
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.78
+      ],
+      [
+        0.52,
+        0.28
+      ],
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.4,
+        0.36
+      ],
+      [
+        0.6,
+        0.36
+      ]
+    ]
+  },
+  {
+    "id": "bengaluru",
+    "name": "Bengaluru",
+    "country": "India",
+    "country_code": "IN",
+    "secret_word": "filter-coffee",
+    "activities": [
+      "visit parks",
+      "explore cafes",
+      "see tech districts"
+    ],
+    "known_for": "tech parks and gardens",
+    "famous_person": "C. V. Raman",
+    "popular_item": "masala dosa",
+    "map_svg": "M18 25 L48 10 L89 16 L128 28 L156 52 L173 82 L162 95 L120 105 L81 105 L44 93 L10 61 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "India",
+      "Pakistan",
+      "Bangladesh",
+      "Sri Lanka"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Bengaluru is known as a tech hub.",
+      "options": [
+        "Bengaluru is known as a tech hub.",
+        "Bengaluru is a tiny village.",
+        "Bengaluru is in Antarctica.",
+        "Bengaluru has no famous landmarks."
+      ],
+      "answer": "Bengaluru is known as a tech hub."
+    },
+    "trivia": {
+      "prompt": "Bengaluru is in which Indian state?",
+      "options": [
+        "Karnataka",
+        "Tamil Nadu",
+        "Kerala",
+        "Maharashtra"
+      ],
+      "answer": "Karnataka"
+    },
+    "drawing_prompt": "Draw Vidhana Soudha facade.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.36,
+        0.52
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.42
+      ],
+      [
+        0.68,
+        0.78
+      ],
+      [
+        0.76,
+        0.56
+      ],
+      [
+        0.86,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "bangkok",
+    "name": "Bangkok",
+    "country": "Thailand",
+    "country_code": "TH",
+    "secret_word": "mango",
+    "activities": [
+      "ride river boats",
+      "visit temples",
+      "eat street food"
+    ],
+    "known_for": "street food and temples",
+    "famous_person": "Lisa",
+    "popular_item": "mango sticky rice",
+    "map_svg": "M16 19 L55 15 L87 21 L126 33 L163 46 L171 76 L160 100 L127 110 L79 110 L42 87 L17 55 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Thailand",
+      "Vietnam",
+      "Cambodia",
+      "Laos"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Bangkok is famous for street food and temples.",
+      "options": [
+        "Bangkok has no famous landmarks.",
+        "Bangkok is famous for street food and temples.",
+        "Bangkok is a tiny village.",
+        "Bangkok is in Antarctica."
+      ],
+      "answer": "Bangkok is famous for street food and temples."
+    },
+    "trivia": {
+      "prompt": "What river runs through Bangkok?",
+      "options": [
+        "Chao Phraya",
+        "Mekong",
+        "Irrawaddy",
+        "Salween"
+      ],
+      "answer": "Chao Phraya"
+    },
+    "drawing_prompt": "Draw a temple spire silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.06
+      ],
+      [
+        0.46,
+        0.2
+      ],
+      [
+        0.42,
+        0.4
+      ],
+      [
+        0.36,
+        0.78
+      ],
+      [
+        0.64,
+        0.78
+      ],
+      [
+        0.58,
+        0.4
+      ],
+      [
+        0.54,
+        0.2
+      ],
+      [
+        0.5,
+        0.06
+      ]
+    ]
+  },
+  {
+    "id": "singapore",
+    "name": "Singapore",
+    "country": "Singapore",
+    "country_code": "SG",
+    "secret_word": "merlion",
+    "activities": [
+      "eat at hawker centers",
+      "walk marina bay",
+      "visit gardens"
+    ],
+    "known_for": "its skyline and hawker centers",
+    "famous_person": "Lee Kuan Yew",
+    "popular_item": "chicken rice",
+    "map_svg": "M14 24 L53 9 L94 15 L124 27 L161 51 L178 81 L158 105 L125 104 L86 104 L40 92 L15 60 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Singapore",
+      "Malaysia",
+      "Indonesia",
+      "Brunei"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Singapore is famous for hawker food and a modern skyline.",
+      "options": [
+        "Singapore is a tiny village.",
+        "Singapore has no famous landmarks.",
+        "Singapore is in Antarctica.",
+        "Singapore is famous for hawker food and a modern skyline."
+      ],
+      "answer": "Singapore is famous for hawker food and a modern skyline."
+    },
+    "trivia": {
+      "prompt": "Singapore is best described as what?",
+      "options": [
+        "Island city-state",
+        "Landlocked republic",
+        "Mountain kingdom",
+        "Desert emirate"
+      ],
+      "answer": "Island city-state"
+    },
+    "drawing_prompt": "Draw Marina Bay skyline silhouette.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.32,
+        0.56
+      ],
+      [
+        0.5,
+        0.34
+      ],
+      [
+        0.68,
+        0.56
+      ],
+      [
+        0.8,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "kuala-lumpur",
+    "name": "Kuala Lumpur",
+    "country": "Malaysia",
+    "country_code": "MY",
+    "secret_word": "satay",
+    "activities": [
+      "visit night markets",
+      "see skyline views",
+      "try hawker food"
+    ],
+    "known_for": "the Petronas Towers",
+    "famous_person": "Michelle Yeoh",
+    "popular_item": "nasi lemak",
+    "map_svg": "M12 18 L51 14 L92 20 L122 32 L159 45 L176 75 L156 99 L123 109 L84 109 L38 97 L13 54 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Malaysia",
+      "Indonesia",
+      "Singapore",
+      "Thailand"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Kuala Lumpur terkenal dengan Menara Petronas.",
+      "options": [
+        "Kuala Lumpur is a tiny village.",
+        "Kuala Lumpur is in Antarctica.",
+        "Kuala Lumpur has no famous landmarks.",
+        "Kuala Lumpur is famous for the Petronas Towers."
+      ],
+      "answer": "Kuala Lumpur is famous for the Petronas Towers."
+    },
+    "trivia": {
+      "prompt": "Which twin towers are in Kuala Lumpur?",
+      "options": [
+        "Petronas Towers",
+        "Kingdom Towers",
+        "Lotus Towers",
+        "Orient Towers"
+      ],
+      "answer": "Petronas Towers"
+    },
+    "drawing_prompt": "Draw the Petronas Towers silhouette.",
+    "drawing_template": [
+      [
+        0.22,
+        0.78
+      ],
+      [
+        0.22,
+        0.44
+      ],
+      [
+        0.34,
+        0.3
+      ],
+      [
+        0.5,
+        0.22
+      ],
+      [
+        0.66,
+        0.3
+      ],
+      [
+        0.78,
+        0.44
+      ],
+      [
+        0.78,
+        0.78
+      ],
+      [
+        0.22,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "jakarta",
+    "name": "Jakarta",
+    "country": "Indonesia",
+    "country_code": "ID",
+    "secret_word": "batik",
+    "activities": [
+      "visit national museums",
+      "explore food streets",
+      "see old batavia district"
+    ],
+    "known_for": "busy capital and national monument",
+    "famous_person": "Pramoedya Ananta Toer",
+    "popular_item": "nasi goreng",
+    "map_svg": "M19 23 L49 19 L90 14 L129 26 L157 50 L174 80 L163 104 L121 103 L82 103 L45 91 L11 59 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Indonesia",
+      "Malaysia",
+      "Philippines",
+      "Brunei"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Jakarta adalah ibu kota Indonesia.",
+      "options": [
+        "Jakarta is a tiny village.",
+        "Jakarta is the capital of Indonesia.",
+        "Jakarta is in Antarctica.",
+        "Jakarta has no famous landmarks."
+      ],
+      "answer": "Jakarta is the capital of Indonesia."
+    },
+    "trivia": {
+      "prompt": "Jakarta is the capital of which country?",
+      "options": [
+        "Indonesia",
+        "Malaysia",
+        "Philippines",
+        "Brunei"
+      ],
+      "answer": "Indonesia"
+    },
+    "drawing_prompt": "Draw Monas monument silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.48,
+        0.28
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.78
+      ],
+      [
+        0.52,
+        0.28
+      ],
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.4,
+        0.36
+      ],
+      [
+        0.6,
+        0.36
+      ]
+    ]
+  },
+  {
+    "id": "manila",
+    "name": "Manila",
+    "country": "Philippines",
+    "country_code": "PH",
+    "secret_word": "jeepney",
+    "activities": [
+      "walk historic intramuros",
+      "ride jeepneys",
+      "try street food"
+    ],
+    "known_for": "bay sunsets and historic intramuros",
+    "famous_person": "Jose Rizal",
+    "popular_item": "halo-halo",
+    "map_svg": "M17 17 L56 13 L88 19 L127 31 L164 55 L172 74 L161 98 L128 108 L80 108 L43 96 L18 53 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Philippines",
+      "Indonesia",
+      "Malaysia",
+      "Thailand"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Manila is a major city on Manila Bay.",
+      "options": [
+        "Manila is a tiny village.",
+        "Manila is in Antarctica.",
+        "Manila is a major city on Manila Bay.",
+        "Manila has no famous landmarks."
+      ],
+      "answer": "Manila is a major city on Manila Bay."
+    },
+    "trivia": {
+      "prompt": "Manila is the capital of which country?",
+      "options": [
+        "Philippines",
+        "Indonesia",
+        "Malaysia",
+        "Thailand"
+      ],
+      "answer": "Philippines"
+    },
+    "drawing_prompt": "Draw jeepney silhouette.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.36,
+        0.52
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.42
+      ],
+      [
+        0.68,
+        0.78
+      ],
+      [
+        0.76,
+        0.56
+      ],
+      [
+        0.86,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "ho-chi-minh-city",
+    "name": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "country_code": "VN",
+    "secret_word": "pho",
+    "activities": [
+      "explore markets",
+      "eat pho and banh mi",
+      "watch city traffic"
+    ],
+    "known_for": "motorbike streets and markets",
+    "famous_person": "Vo Nguyen Giap",
+    "popular_item": "banh mi",
+    "map_svg": "M15 22 L54 18 L86 13 L125 25 L162 49 L170 79 L159 103 L126 112 L78 102 L41 90 L16 58 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Vietnam",
+      "Thailand",
+      "Cambodia",
+      "Laos"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Thanh pho Ho Chi Minh co nhieu xe may.",
+      "options": [
+        "Ho Chi Minh City is in Antarctica.",
+        "Ho Chi Minh City is a tiny village.",
+        "Ho Chi Minh City has no famous landmarks.",
+        "Ho Chi Minh City has many motorbikes."
+      ],
+      "answer": "Ho Chi Minh City has many motorbikes."
+    },
+    "trivia": {
+      "prompt": "Ho Chi Minh City is in which country?",
+      "options": [
+        "Vietnam",
+        "Thailand",
+        "Cambodia",
+        "Laos"
+      ],
+      "answer": "Vietnam"
+    },
+    "drawing_prompt": "Draw a scooter silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.06
+      ],
+      [
+        0.46,
+        0.2
+      ],
+      [
+        0.42,
+        0.4
+      ],
+      [
+        0.36,
+        0.78
+      ],
+      [
+        0.64,
+        0.78
+      ],
+      [
+        0.58,
+        0.4
+      ],
+      [
+        0.54,
+        0.2
+      ],
+      [
+        0.5,
+        0.06
+      ]
+    ]
+  },
+  {
+    "id": "hanoi",
+    "name": "Hanoi",
+    "country": "Vietnam",
+    "country_code": "VN",
+    "secret_word": "pho",
+    "activities": [
+      "walk the old quarter",
+      "visit lakeside temples",
+      "try street noodles"
+    ],
+    "known_for": "lakes and old quarter streets",
+    "famous_person": "Ho Chi Minh",
+    "popular_item": "egg coffee",
+    "map_svg": "M13 16 L52 12 L93 18 L123 30 L160 54 L177 73 L157 97 L124 107 L85 107 L39 95 L14 63 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Vietnam",
+      "Laos",
+      "Cambodia",
+      "Thailand"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Ha Noi noi tieng voi pho va ho nuoc.",
+      "options": [
+        "Hanoi is a tiny village.",
+        "Hanoi has no famous landmarks.",
+        "Hanoi is in Antarctica.",
+        "Hanoi is famous for pho and lakes."
+      ],
+      "answer": "Hanoi is famous for pho and lakes."
+    },
+    "trivia": {
+      "prompt": "Hanoi is the capital of which country?",
+      "options": [
+        "Vietnam",
+        "Laos",
+        "Cambodia",
+        "Thailand"
+      ],
+      "answer": "Vietnam"
+    },
+    "drawing_prompt": "Draw a pagoda silhouette.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.32,
+        0.56
+      ],
+      [
+        0.5,
+        0.34
+      ],
+      [
+        0.68,
+        0.56
+      ],
+      [
+        0.8,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "taipei",
+    "name": "Taipei",
+    "country": "Taiwan",
+    "country_code": "TW",
+    "secret_word": "bubble-tea",
+    "activities": [
+      "visit night markets",
+      "ride efficient metro lines",
+      "see mountain viewpoints"
+    ],
+    "known_for": "night markets and Taipei 101",
+    "famous_person": "Ang Lee",
+    "popular_item": "bubble tea",
+    "map_svg": "M20 21 L50 17 L91 23 L130 24 L158 48 L175 78 L164 102 L122 112 L83 101 L46 89 L12 57 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Taiwan",
+      "Japan",
+      "South Korea",
+      "China"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Taipei is known for night markets and Taipei 101.",
+      "options": [
+        "Taipei is known for night markets and Taipei 101.",
+        "Taipei is in Antarctica.",
+        "Taipei is a tiny village.",
+        "Taipei has no famous landmarks."
+      ],
+      "answer": "Taipei is known for night markets and Taipei 101."
+    },
+    "trivia": {
+      "prompt": "Which supertall building is a Taipei landmark?",
+      "options": [
+        "Taipei 101",
+        "Shanghai Tower",
+        "Lotte World Tower",
+        "One World Trade Center"
+      ],
+      "answer": "Taipei 101"
+    },
+    "drawing_prompt": "Draw Taipei 101 silhouette.",
+    "drawing_template": [
+      [
+        0.22,
+        0.78
+      ],
+      [
+        0.22,
+        0.44
+      ],
+      [
+        0.34,
+        0.3
+      ],
+      [
+        0.5,
+        0.22
+      ],
+      [
+        0.66,
+        0.3
+      ],
+      [
+        0.78,
+        0.44
+      ],
+      [
+        0.78,
+        0.78
+      ],
+      [
+        0.22,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "hong-kong",
+    "name": "Hong Kong",
+    "country": "China",
+    "country_code": "HK",
+    "secret_word": "dim-sum",
+    "activities": [
+      "ride the star ferry",
+      "take the peak tram",
+      "eat dim sum"
+    ],
+    "known_for": "harbor skyline and trams",
+    "famous_person": "Bruce Lee",
+    "popular_item": "dim sum",
+    "map_svg": "M18 15 L48 11 L89 17 L128 29 L156 53 L173 83 L162 96 L120 106 L81 106 L44 94 L10 62 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "China",
+      "Japan",
+      "Singapore",
+      "South Korea"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Hong Kong is famous for its harbor skyline.",
+      "options": [
+        "Hong Kong is in Antarctica.",
+        "Hong Kong has no famous landmarks.",
+        "Hong Kong is a tiny village.",
+        "Hong Kong is famous for its harbor skyline."
+      ],
+      "answer": "Hong Kong is famous for its harbor skyline."
+    },
+    "trivia": {
+      "prompt": "What harbor is central to Hong Kong's skyline views?",
+      "options": [
+        "Victoria Harbour",
+        "Sydney Harbour",
+        "Tokyo Bay",
+        "Pearl Harbor"
+      ],
+      "answer": "Victoria Harbour"
+    },
+    "drawing_prompt": "Draw a skyline and ferry silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.48,
+        0.28
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.78
+      ],
+      [
+        0.52,
+        0.28
+      ],
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.4,
+        0.36
+      ],
+      [
+        0.6,
+        0.36
+      ]
+    ]
+  },
+  {
+    "id": "seoul",
+    "name": "Seoul",
+    "country": "South Korea",
+    "country_code": "KR",
+    "secret_word": "kimchi",
+    "activities": [
+      "explore night markets",
+      "visit palaces",
+      "sing karaoke in Hongdae"
+    ],
+    "known_for": "K-pop culture and modern city life",
+    "famous_person": "Bong Joon-ho",
+    "popular_item": "kimchi",
+    "map_svg": "M16 20 L55 16 L87 22 L126 23 L163 47 L171 77 L160 101 L127 111 L79 111 L42 88 L17 56 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "South Korea",
+      "Japan",
+      "China",
+      "North Korea"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Seoul is famous for palaces and pop culture.",
+      "options": [
+        "Seoul has no famous landmarks.",
+        "Seoul is in Antarctica.",
+        "Seoul is a tiny village.",
+        "Seoul is famous for palaces and pop culture."
+      ],
+      "answer": "Seoul is famous for palaces and pop culture."
+    },
+    "trivia": {
+      "prompt": "Which river flows through Seoul?",
+      "options": [
+        "Han River",
+        "Yangtze River",
+        "Mekong River",
+        "Nakdong River"
+      ],
+      "answer": "Han River"
+    },
+    "drawing_prompt": "Draw N Seoul Tower silhouette.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.36,
+        0.52
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.42
+      ],
+      [
+        0.68,
+        0.78
+      ],
+      [
+        0.76,
+        0.56
+      ],
+      [
+        0.86,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "beijing",
+    "name": "Beijing",
+    "country": "China",
+    "country_code": "CN",
+    "secret_word": "dumpling",
+    "activities": [
+      "walk historic hutongs",
+      "visit imperial palaces",
+      "try regional cuisine"
+    ],
+    "known_for": "the Forbidden City",
+    "famous_person": "Ai Weiwei",
+    "popular_item": "Peking duck",
+    "map_svg": "M14 25 L53 10 L94 16 L124 28 L161 52 L178 82 L158 95 L125 105 L86 105 L40 93 L15 61 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "China",
+      "Mongolia",
+      "South Korea",
+      "Vietnam"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Beijing is famous for the Forbidden City.",
+      "options": [
+        "Beijing has no famous landmarks.",
+        "Beijing is famous for the Forbidden City.",
+        "Beijing is in Antarctica.",
+        "Beijing is a tiny village."
+      ],
+      "answer": "Beijing is famous for the Forbidden City."
+    },
+    "trivia": {
+      "prompt": "Which large imperial complex is in Beijing?",
+      "options": [
+        "Forbidden City",
+        "Summer Palace",
+        "Terracotta Museum",
+        "Potala Palace"
+      ],
+      "answer": "Forbidden City"
+    },
+    "drawing_prompt": "Draw a palace gate roofline.",
+    "drawing_template": [
+      [
+        0.5,
+        0.06
+      ],
+      [
+        0.46,
+        0.2
+      ],
+      [
+        0.42,
+        0.4
+      ],
+      [
+        0.36,
+        0.78
+      ],
+      [
+        0.64,
+        0.78
+      ],
+      [
+        0.58,
+        0.4
+      ],
+      [
+        0.54,
+        0.2
+      ],
+      [
+        0.5,
+        0.06
+      ]
+    ]
+  },
+  {
+    "id": "shanghai",
+    "name": "Shanghai",
+    "country": "China",
+    "country_code": "CN",
+    "secret_word": "noodle",
+    "activities": [
+      "walk the bund",
+      "ride river cruises",
+      "visit skyscraper viewpoints"
+    ],
+    "known_for": "the Bund skyline",
+    "famous_person": "Yao Ming",
+    "popular_item": "xiaolongbao",
+    "map_svg": "M12 19 L51 15 L92 21 L122 33 L159 46 L176 76 L156 100 L123 110 L84 110 L38 87 L13 55 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "China",
+      "Japan",
+      "South Korea",
+      "Taiwan"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Shanghai has a famous riverside skyline.",
+      "options": [
+        "Shanghai is a tiny village.",
+        "Shanghai has a famous riverside skyline.",
+        "Shanghai is in Antarctica.",
+        "Shanghai has no famous landmarks."
+      ],
+      "answer": "Shanghai has a famous riverside skyline."
+    },
+    "trivia": {
+      "prompt": "What waterfront promenade is iconic in Shanghai?",
+      "options": [
+        "The Bund",
+        "The Peak",
+        "The Strip",
+        "The Quay"
+      ],
+      "answer": "The Bund"
+    },
+    "drawing_prompt": "Draw the Oriental Pearl Tower silhouette.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.32,
+        0.56
+      ],
+      [
+        0.5,
+        0.34
+      ],
+      [
+        0.68,
+        0.56
+      ],
+      [
+        0.8,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "marrakech",
+    "name": "Marrakech",
+    "country": "Morocco",
+    "country_code": "MA",
+    "secret_word": "mint",
+    "activities": [
+      "shop in souks",
+      "visit gardens",
+      "explore the medina"
+    ],
+    "known_for": "medina souks and riads",
+    "famous_person": "Yves Saint Laurent",
+    "popular_item": "mint tea",
+    "map_svg": "M19 24 L49 9 L90 15 L129 27 L157 51 L174 81 L163 105 L121 104 L82 104 L45 92 L11 60 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Morocco",
+      "Algeria",
+      "Tunisia",
+      "Egypt"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Marrakech is known for souks and red walls.",
+      "options": [
+        "Marrakech has no famous landmarks.",
+        "Marrakech is in Antarctica.",
+        "Marrakech is known for souks and red walls.",
+        "Marrakech is a tiny village."
+      ],
+      "answer": "Marrakech is known for souks and red walls."
+    },
+    "trivia": {
+      "prompt": "Marrakech is in which country?",
+      "options": [
+        "Morocco",
+        "Algeria",
+        "Tunisia",
+        "Egypt"
+      ],
+      "answer": "Morocco"
+    },
+    "drawing_prompt": "Draw a market arch silhouette.",
+    "drawing_template": [
+      [
+        0.22,
+        0.78
+      ],
+      [
+        0.22,
+        0.44
+      ],
+      [
+        0.34,
+        0.3
+      ],
+      [
+        0.5,
+        0.22
+      ],
+      [
+        0.66,
+        0.3
+      ],
+      [
+        0.78,
+        0.44
+      ],
+      [
+        0.78,
+        0.78
+      ],
+      [
+        0.22,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "casablanca",
+    "name": "Casablanca",
+    "country": "Morocco",
+    "country_code": "MA",
+    "secret_word": "tagine",
+    "activities": [
+      "walk the corniche",
+      "visit grand mosque",
+      "explore city markets"
+    ],
+    "known_for": "Atlantic coast and Hassan II Mosque",
+    "famous_person": "Ibn Battuta",
+    "popular_item": "tagine",
+    "map_svg": "M17 18 L56 14 L88 20 L127 32 L164 45 L172 75 L161 99 L128 109 L80 109 L43 97 L18 54 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Morocco",
+      "Algeria",
+      "Tunisia",
+      "Egypt"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Casablanca is a major Moroccan coastal city.",
+      "options": [
+        "Casablanca is in Antarctica.",
+        "Casablanca is a major Moroccan coastal city.",
+        "Casablanca is a tiny village.",
+        "Casablanca has no famous landmarks."
+      ],
+      "answer": "Casablanca is a major Moroccan coastal city."
+    },
+    "trivia": {
+      "prompt": "Casablanca is on which ocean?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Pacific Ocean",
+        "Arctic Ocean"
+      ],
+      "answer": "Atlantic Ocean"
+    },
+    "drawing_prompt": "Draw Hassan II Mosque minaret silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.48,
+        0.28
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.78
+      ],
+      [
+        0.52,
+        0.28
+      ],
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.4,
+        0.36
+      ],
+      [
+        0.6,
+        0.36
+      ]
+    ]
+  },
+  {
+    "id": "lagos",
+    "name": "Lagos",
+    "country": "Nigeria",
+    "country_code": "NG",
+    "secret_word": "afrobeats",
+    "activities": [
+      "visit markets",
+      "enjoy music venues",
+      "see waterfront districts"
+    ],
+    "known_for": "its energy and music scene",
+    "famous_person": "Fela Kuti",
+    "popular_item": "jollof rice",
+    "map_svg": "M15 23 L54 19 L86 14 L125 26 L162 50 L170 80 L159 104 L126 103 L78 103 L41 91 L16 59 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Nigeria",
+      "Ghana",
+      "Kenya",
+      "South Africa"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Lagos is known for music and busy city life.",
+      "options": [
+        "Lagos is a tiny village.",
+        "Lagos is in Antarctica.",
+        "Lagos has no famous landmarks.",
+        "Lagos is known for music and busy city life."
+      ],
+      "answer": "Lagos is known for music and busy city life."
+    },
+    "trivia": {
+      "prompt": "Lagos is in which country?",
+      "options": [
+        "Nigeria",
+        "Ghana",
+        "Kenya",
+        "South Africa"
+      ],
+      "answer": "Nigeria"
+    },
+    "drawing_prompt": "Draw a skyline silhouette.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.36,
+        0.52
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.42
+      ],
+      [
+        0.68,
+        0.78
+      ],
+      [
+        0.76,
+        0.56
+      ],
+      [
+        0.86,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "accra",
+    "name": "Accra",
+    "country": "Ghana",
+    "country_code": "GH",
+    "secret_word": "kente",
+    "activities": [
+      "visit markets",
+      "see Independence Square",
+      "explore beaches"
+    ],
+    "known_for": "markets and coastal forts",
+    "famous_person": "Kwame Nkrumah",
+    "popular_item": "waakye",
+    "map_svg": "M13 17 L52 13 L93 19 L123 31 L160 55 L177 74 L157 98 L124 108 L85 108 L39 96 L14 53 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Ghana",
+      "Nigeria",
+      "Benin",
+      "Togo"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Accra is the capital of Ghana.",
+      "options": [
+        "Accra is in Antarctica.",
+        "Accra has no famous landmarks.",
+        "Accra is a tiny village.",
+        "Accra is the capital of Ghana."
+      ],
+      "answer": "Accra is the capital of Ghana."
+    },
+    "trivia": {
+      "prompt": "Accra is the capital of which country?",
+      "options": [
+        "Ghana",
+        "Nigeria",
+        "Benin",
+        "Togo"
+      ],
+      "answer": "Ghana"
+    },
+    "drawing_prompt": "Draw Independence Arch silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.06
+      ],
+      [
+        0.46,
+        0.2
+      ],
+      [
+        0.42,
+        0.4
+      ],
+      [
+        0.36,
+        0.78
+      ],
+      [
+        0.64,
+        0.78
+      ],
+      [
+        0.58,
+        0.4
+      ],
+      [
+        0.54,
+        0.2
+      ],
+      [
+        0.5,
+        0.06
+      ]
+    ]
+  },
+  {
+    "id": "nairobi",
+    "name": "Nairobi",
+    "country": "Kenya",
+    "country_code": "KE",
+    "secret_word": "safari",
+    "activities": [
+      "visit wildlife parks",
+      "explore local markets",
+      "try east african dishes"
+    ],
+    "known_for": "urban wildlife and safari access",
+    "famous_person": "Wangari Maathai",
+    "popular_item": "nyama choma",
+    "map_svg": "M20 22 L50 18 L91 13 L130 25 L158 49 L175 79 L164 103 L122 112 L83 102 L46 90 L12 58 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Kenya",
+      "Tanzania",
+      "Uganda",
+      "Ethiopia"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Nairobi is near wildlife parks.",
+      "options": [
+        "Nairobi is near wildlife parks.",
+        "Nairobi has no famous landmarks.",
+        "Nairobi is in Antarctica.",
+        "Nairobi is a tiny village."
+      ],
+      "answer": "Nairobi is near wildlife parks."
+    },
+    "trivia": {
+      "prompt": "Nairobi is the capital of which country?",
+      "options": [
+        "Kenya",
+        "Uganda",
+        "Rwanda",
+        "Zambia"
+      ],
+      "answer": "Kenya"
+    },
+    "drawing_prompt": "Draw a simple acacia tree silhouette.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.32,
+        0.56
+      ],
+      [
+        0.5,
+        0.34
+      ],
+      [
+        0.68,
+        0.56
+      ],
+      [
+        0.8,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "cape-town",
+    "name": "Cape Town",
+    "country": "South Africa",
+    "country_code": "ZA",
+    "secret_word": "table",
+    "activities": [
+      "ride the cableway",
+      "visit waterfront markets",
+      "drive scenic coastal routes"
+    ],
+    "known_for": "Table Mountain",
+    "famous_person": "Trevor Noah",
+    "popular_item": "bobotie",
+    "map_svg": "M18 16 L48 12 L89 18 L128 30 L156 54 L173 73 L162 97 L120 107 L81 107 L44 95 L10 63 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "South Africa",
+      "Namibia",
+      "Kenya",
+      "Morocco"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Cape Town is famous for Table Mountain.",
+      "options": [
+        "Cape Town is a tiny village.",
+        "Cape Town is in Antarctica.",
+        "Cape Town is famous for Table Mountain.",
+        "Cape Town has no famous landmarks."
+      ],
+      "answer": "Cape Town is famous for Table Mountain."
+    },
+    "trivia": {
+      "prompt": "Which mountain overlooks Cape Town?",
+      "options": [
+        "Kilimanjaro",
+        "Table Mountain",
+        "Atlas Mountain",
+        "Drakensberg Peak"
+      ],
+      "answer": "Table Mountain"
+    },
+    "drawing_prompt": "Draw Table Mountain flat top silhouette.",
+    "drawing_template": [
+      [
+        0.22,
+        0.78
+      ],
+      [
+        0.22,
+        0.44
+      ],
+      [
+        0.34,
+        0.3
+      ],
+      [
+        0.5,
+        0.22
+      ],
+      [
+        0.66,
+        0.3
+      ],
+      [
+        0.78,
+        0.44
+      ],
+      [
+        0.78,
+        0.78
+      ],
+      [
+        0.22,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "johannesburg",
+    "name": "Johannesburg",
+    "country": "South Africa",
+    "country_code": "ZA",
+    "secret_word": "gold",
+    "activities": [
+      "visit museums",
+      "explore local neighborhoods",
+      "learn about history"
+    ],
+    "known_for": "history museums and urban culture",
+    "famous_person": "Nelson Mandela",
+    "popular_item": "bunny chow",
+    "map_svg": "M16 21 L55 17 L87 23 L126 24 L163 48 L171 78 L160 102 L127 112 L79 101 L42 89 L17 57 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "South Africa",
+      "Namibia",
+      "Botswana",
+      "Zimbabwe"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Johannesburg is a major city in South Africa.",
+      "options": [
+        "Johannesburg is a major city in South Africa.",
+        "Johannesburg is in Antarctica.",
+        "Johannesburg is a tiny village.",
+        "Johannesburg has no famous landmarks."
+      ],
+      "answer": "Johannesburg is a major city in South Africa."
+    },
+    "trivia": {
+      "prompt": "Johannesburg is often associated with which industry in its history?",
+      "options": [
+        "Gold mining",
+        "Shipbuilding",
+        "Tea farming",
+        "Whaling"
+      ],
+      "answer": "Gold mining"
+    },
+    "drawing_prompt": "Draw a mining headgear silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.48,
+        0.28
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.78
+      ],
+      [
+        0.52,
+        0.28
+      ],
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.4,
+        0.36
+      ],
+      [
+        0.6,
+        0.36
+      ]
+    ]
+  },
+  {
+    "id": "addis-ababa",
+    "name": "Addis Ababa",
+    "country": "Ethiopia",
+    "country_code": "ET",
+    "secret_word": "injera",
+    "activities": [
+      "visit museums",
+      "drink coffee",
+      "explore markets"
+    ],
+    "known_for": "highland capital and coffee culture",
+    "famous_person": "Haile Selassie",
+    "popular_item": "injera",
+    "map_svg": "M14 15 L53 11 L94 17 L124 29 L161 53 L178 83 L158 96 L125 106 L86 106 L40 94 L15 62 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Ethiopia",
+      "Eritrea",
+      "Kenya",
+      "Sudan"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Addis Ababa is known for coffee culture.",
+      "options": [
+        "Addis Ababa has no famous landmarks.",
+        "Addis Ababa is in Antarctica.",
+        "Addis Ababa is a tiny village.",
+        "Addis Ababa is known for coffee culture."
+      ],
+      "answer": "Addis Ababa is known for coffee culture."
+    },
+    "trivia": {
+      "prompt": "Addis Ababa is the capital of which country?",
+      "options": [
+        "Ethiopia",
+        "Eritrea",
+        "Kenya",
+        "Sudan"
+      ],
+      "answer": "Ethiopia"
+    },
+    "drawing_prompt": "Draw a coffee cup and skyline silhouette.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.36,
+        0.52
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.42
+      ],
+      [
+        0.68,
+        0.78
+      ],
+      [
+        0.76,
+        0.56
+      ],
+      [
+        0.86,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "los-angeles",
+    "name": "Los Angeles",
+    "country": "United States",
+    "country_code": "US",
+    "secret_word": "movie",
+    "activities": [
+      "visit film studios",
+      "drive scenic boulevards",
+      "relax at beaches"
+    ],
+    "known_for": "Hollywood and beaches",
+    "famous_person": "Kobe Bryant",
+    "popular_item": "street tacos",
+    "map_svg": "M12 20 L51 16 L92 22 L122 23 L159 47 L176 77 L156 101 L123 111 L84 111 L38 88 L13 56 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Australia"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Los Angeles is famous for Hollywood.",
+      "options": [
+        "Los Angeles is famous for Hollywood.",
+        "Los Angeles has no famous landmarks.",
+        "Los Angeles is a tiny village.",
+        "Los Angeles is in Antarctica."
+      ],
+      "answer": "Los Angeles is famous for Hollywood."
+    },
+    "trivia": {
+      "prompt": "What district is most associated with the film industry in Los Angeles?",
+      "options": [
+        "Hollywood",
+        "Brooklyn",
+        "Soho",
+        "Downtown"
+      ],
+      "answer": "Hollywood"
+    },
+    "drawing_prompt": "Draw the Hollywood sign silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.06
+      ],
+      [
+        0.46,
+        0.2
+      ],
+      [
+        0.42,
+        0.4
+      ],
+      [
+        0.36,
+        0.78
+      ],
+      [
+        0.64,
+        0.78
+      ],
+      [
+        0.58,
+        0.4
+      ],
+      [
+        0.54,
+        0.2
+      ],
+      [
+        0.5,
+        0.06
+      ]
+    ]
+  },
+  {
+    "id": "chicago",
+    "name": "Chicago",
+    "country": "United States",
+    "country_code": "US",
+    "secret_word": "deep-dish",
+    "activities": [
+      "walk the riverwalk",
+      "visit museums",
+      "see architecture by boat"
+    ],
+    "known_for": "its skyline and lakefront",
+    "famous_person": "Barack Obama",
+    "popular_item": "deep-dish pizza",
+    "map_svg": "M19 25 L49 10 L90 16 L129 28 L157 52 L174 82 L163 95 L121 105 L82 105 L45 93 L11 61 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Chicago is famous for architecture and deep-dish pizza.",
+      "options": [
+        "Chicago is famous for architecture and deep-dish pizza.",
+        "Chicago is in Antarctica.",
+        "Chicago has no famous landmarks.",
+        "Chicago is a tiny village."
+      ],
+      "answer": "Chicago is famous for architecture and deep-dish pizza."
+    },
+    "trivia": {
+      "prompt": "Chicago sits on which Great Lake?",
+      "options": [
+        "Lake Michigan",
+        "Lake Ontario",
+        "Lake Erie",
+        "Lake Superior"
+      ],
+      "answer": "Lake Michigan"
+    },
+    "drawing_prompt": "Draw Willis Tower silhouette.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.32,
+        0.56
+      ],
+      [
+        0.5,
+        0.34
+      ],
+      [
+        0.68,
+        0.56
+      ],
+      [
+        0.8,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "san-francisco",
+    "name": "San Francisco",
+    "country": "United States",
+    "country_code": "US",
+    "secret_word": "fog",
+    "activities": [
+      "ride cable cars",
+      "walk hilly streets",
+      "see bay views"
+    ],
+    "known_for": "the Golden Gate Bridge",
+    "famous_person": "Maya Angelou",
+    "popular_item": "sourdough bread",
+    "map_svg": "M17 19 L56 15 L88 21 L127 33 L164 46 L172 76 L161 100 L128 110 L80 110 L43 87 L18 55 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "Australia"
+    ],
+    "duolingo": {
+      "prompt": "Translate: San Francisco is known for fog and steep streets.",
+      "options": [
+        "San Francisco is a tiny village.",
+        "San Francisco is in Antarctica.",
+        "San Francisco is known for fog and steep streets.",
+        "San Francisco has no famous landmarks."
+      ],
+      "answer": "San Francisco is known for fog and steep streets."
+    },
+    "trivia": {
+      "prompt": "Which bridge is San Francisco famous for?",
+      "options": [
+        "Brooklyn Bridge",
+        "Golden Gate Bridge",
+        "Tower Bridge",
+        "Bay Bridge"
+      ],
+      "answer": "Golden Gate Bridge"
+    },
+    "drawing_prompt": "Draw the Golden Gate Bridge towers.",
+    "drawing_template": [
+      [
+        0.22,
+        0.78
+      ],
+      [
+        0.22,
+        0.44
+      ],
+      [
+        0.34,
+        0.3
+      ],
+      [
+        0.5,
+        0.22
+      ],
+      [
+        0.66,
+        0.3
+      ],
+      [
+        0.78,
+        0.44
+      ],
+      [
+        0.78,
+        0.78
+      ],
+      [
+        0.22,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "seattle",
+    "name": "Seattle",
+    "country": "United States",
+    "country_code": "US",
+    "secret_word": "coffee",
+    "activities": [
+      "visit pike place market",
+      "see waterfront ferries",
+      "go up the space needle"
+    ],
+    "known_for": "the Space Needle and coffee culture",
+    "famous_person": "Jimi Hendrix",
+    "popular_item": "salmon",
+    "map_svg": "M15 24 L54 9 L86 15 L125 27 L162 51 L170 81 L159 105 L126 104 L78 104 L41 92 L16 60 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "United States",
+      "Canada",
+      "Mexico",
+      "United Kingdom"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Seattle is famous for coffee and rain.",
+      "options": [
+        "Seattle has no famous landmarks.",
+        "Seattle is a tiny village.",
+        "Seattle is in Antarctica.",
+        "Seattle is famous for coffee and rain."
+      ],
+      "answer": "Seattle is famous for coffee and rain."
+    },
+    "trivia": {
+      "prompt": "Which observation tower is a Seattle landmark?",
+      "options": [
+        "CN Tower",
+        "Space Needle",
+        "Sky Tower",
+        "Tokyo Tower"
+      ],
+      "answer": "Space Needle"
+    },
+    "drawing_prompt": "Draw the Space Needle silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.48,
+        0.28
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.78
+      ],
+      [
+        0.52,
+        0.28
+      ],
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.4,
+        0.36
+      ],
+      [
+        0.6,
+        0.36
+      ]
+    ]
+  },
+  {
+    "id": "toronto",
+    "name": "Toronto",
+    "country": "Canada",
+    "country_code": "CA",
+    "secret_word": "maple",
+    "activities": [
+      "walk the waterfront",
+      "visit multicultural neighborhoods",
+      "watch city views from observation decks"
+    ],
+    "known_for": "the CN Tower",
+    "famous_person": "Drake",
+    "popular_item": "peameal bacon sandwich",
+    "map_svg": "M13 18 L52 14 L93 20 L123 32 L160 45 L177 75 L157 99 L124 109 L85 109 L39 97 L14 54 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Canada",
+      "United States",
+      "United Kingdom",
+      "Australia"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Toronto is on Lake Ontario.",
+      "options": [
+        "Toronto is in Antarctica.",
+        "Toronto has no famous landmarks.",
+        "Toronto is on Lake Ontario.",
+        "Toronto is a tiny village."
+      ],
+      "answer": "Toronto is on Lake Ontario."
+    },
+    "trivia": {
+      "prompt": "Which lake borders Toronto?",
+      "options": [
+        "Lake Superior",
+        "Lake Ontario",
+        "Lake Erie",
+        "Lake Michigan"
+      ],
+      "answer": "Lake Ontario"
+    },
+    "drawing_prompt": "Draw the CN Tower silhouette.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.36,
+        0.52
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.42
+      ],
+      [
+        0.68,
+        0.78
+      ],
+      [
+        0.76,
+        0.56
+      ],
+      [
+        0.86,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "vancouver",
+    "name": "Vancouver",
+    "country": "Canada",
+    "country_code": "CA",
+    "secret_word": "rain",
+    "activities": [
+      "bike the seawall",
+      "visit markets",
+      "see mountain views"
+    ],
+    "known_for": "mountains and ocean views",
+    "famous_person": "Ryan Reynolds",
+    "popular_item": "salmon dishes",
+    "map_svg": "M20 23 L50 19 L91 14 L130 26 L158 50 L175 80 L164 104 L122 103 L83 103 L46 91 L12 59 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Canada",
+      "United States",
+      "Australia",
+      "New Zealand"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Vancouver is known for mountains and ocean views.",
+      "options": [
+        "Vancouver is known for mountains and ocean views.",
+        "Vancouver has no famous landmarks.",
+        "Vancouver is a tiny village.",
+        "Vancouver is in Antarctica."
+      ],
+      "answer": "Vancouver is known for mountains and ocean views."
+    },
+    "trivia": {
+      "prompt": "Vancouver is on which ocean?",
+      "options": [
+        "Pacific Ocean",
+        "Atlantic Ocean",
+        "Arctic Ocean",
+        "Indian Ocean"
+      ],
+      "answer": "Pacific Ocean"
+    },
+    "drawing_prompt": "Draw mountain and skyline silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.06
+      ],
+      [
+        0.46,
+        0.2
+      ],
+      [
+        0.42,
+        0.4
+      ],
+      [
+        0.36,
+        0.78
+      ],
+      [
+        0.64,
+        0.78
+      ],
+      [
+        0.58,
+        0.4
+      ],
+      [
+        0.54,
+        0.2
+      ],
+      [
+        0.5,
+        0.06
+      ]
+    ]
+  },
+  {
+    "id": "montreal",
+    "name": "Montreal",
+    "country": "Canada",
+    "country_code": "CA",
+    "secret_word": "poutine",
+    "activities": [
+      "walk old montreal",
+      "visit markets",
+      "enjoy festivals"
+    ],
+    "known_for": "old town charm and festivals",
+    "famous_person": "Celine Dion",
+    "popular_item": "poutine",
+    "map_svg": "M18 17 L48 13 L89 19 L128 31 L156 55 L173 74 L162 98 L120 108 L81 108 L44 96 L10 53 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Canada",
+      "France",
+      "Belgium",
+      "Switzerland"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Montreal is a major French-speaking city in Canada.",
+      "options": [
+        "Montreal is a major French-speaking city in Canada.",
+        "Montreal has no famous landmarks.",
+        "Montreal is in Antarctica.",
+        "Montreal is a tiny village."
+      ],
+      "answer": "Montreal is a major French-speaking city in Canada."
+    },
+    "trivia": {
+      "prompt": "Montreal is in which Canadian province?",
+      "options": [
+        "Quebec",
+        "Ontario",
+        "British Columbia",
+        "Alberta"
+      ],
+      "answer": "Quebec"
+    },
+    "drawing_prompt": "Draw a basilica facade silhouette.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.32,
+        0.56
+      ],
+      [
+        0.5,
+        0.34
+      ],
+      [
+        0.68,
+        0.56
+      ],
+      [
+        0.8,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "mexico-city",
+    "name": "Mexico City",
+    "country": "Mexico",
+    "country_code": "MX",
+    "secret_word": "taco",
+    "activities": [
+      "visit historic plazas",
+      "explore museums",
+      "eat tacos al pastor"
+    ],
+    "known_for": "its vast urban culture and historic center",
+    "famous_person": "Frida Kahlo",
+    "popular_item": "tacos al pastor",
+    "map_svg": "M16 22 L55 18 L87 13 L126 25 L163 49 L171 79 L160 103 L127 112 L79 102 L42 90 L17 58 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Mexico",
+      "Spain",
+      "Colombia",
+      "Peru"
+    ],
+    "duolingo": {
+      "prompt": "Translate: La Ciudad de Mexico tiene muchos museos.",
+      "options": [
+        "Mexico City has no famous landmarks.",
+        "Mexico City is in Antarctica.",
+        "Mexico City has many museums.",
+        "Mexico City is a tiny village."
+      ],
+      "answer": "Mexico City has many museums."
+    },
+    "trivia": {
+      "prompt": "Which artist's blue house museum is in Mexico City?",
+      "options": [
+        "Diego Rivera",
+        "Frida Kahlo",
+        "Pablo Picasso",
+        "Fernando Botero"
+      ],
+      "answer": "Frida Kahlo"
+    },
+    "drawing_prompt": "Draw the Angel of Independence column silhouette.",
+    "drawing_template": [
+      [
+        0.22,
+        0.78
+      ],
+      [
+        0.22,
+        0.44
+      ],
+      [
+        0.34,
+        0.3
+      ],
+      [
+        0.5,
+        0.22
+      ],
+      [
+        0.66,
+        0.3
+      ],
+      [
+        0.78,
+        0.44
+      ],
+      [
+        0.78,
+        0.78
+      ],
+      [
+        0.22,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "guadalajara",
+    "name": "Guadalajara",
+    "country": "Mexico",
+    "country_code": "MX",
+    "secret_word": "mariachi",
+    "activities": [
+      "hear mariachi music",
+      "visit plazas",
+      "eat local dishes"
+    ],
+    "known_for": "mariachi music and tequila region",
+    "famous_person": "Guillermo del Toro",
+    "popular_item": "birria",
+    "map_svg": "M14 16 L53 12 L94 18 L124 30 L161 54 L178 73 L158 97 L125 107 L86 107 L40 95 L15 63 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Mexico",
+      "Spain",
+      "Argentina",
+      "Peru"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Guadalajara is known for mariachi music.",
+      "options": [
+        "Guadalajara has no famous landmarks.",
+        "Guadalajara is a tiny village.",
+        "Guadalajara is known for mariachi music.",
+        "Guadalajara is in Antarctica."
+      ],
+      "answer": "Guadalajara is known for mariachi music."
+    },
+    "trivia": {
+      "prompt": "Guadalajara is in which country?",
+      "options": [
+        "Mexico",
+        "Spain",
+        "Argentina",
+        "Peru"
+      ],
+      "answer": "Mexico"
+    },
+    "drawing_prompt": "Draw cathedral towers silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.48,
+        0.28
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.78
+      ],
+      [
+        0.52,
+        0.28
+      ],
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.4,
+        0.36
+      ],
+      [
+        0.6,
+        0.36
+      ]
+    ]
+  },
+  {
+    "id": "havana",
+    "name": "Havana",
+    "country": "Cuba",
+    "country_code": "CU",
+    "secret_word": "rumba",
+    "activities": [
+      "walk old havana",
+      "listen to live music",
+      "see classic cars"
+    ],
+    "known_for": "classic cars and old town streets",
+    "famous_person": "Jose Marti",
+    "popular_item": "Cuban sandwich",
+    "map_svg": "M12 21 L51 17 L92 23 L122 24 L159 48 L176 78 L156 102 L123 112 L84 101 L38 89 L13 57 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Cuba",
+      "Dominican Republic",
+      "Puerto Rico",
+      "Jamaica"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Havana is known for colorful streets and classic cars.",
+      "options": [
+        "Havana is in Antarctica.",
+        "Havana is a tiny village.",
+        "Havana has no famous landmarks.",
+        "Havana is known for colorful streets and classic cars."
+      ],
+      "answer": "Havana is known for colorful streets and classic cars."
+    },
+    "trivia": {
+      "prompt": "Havana is the capital of which country?",
+      "options": [
+        "Cuba",
+        "Dominican Republic",
+        "Puerto Rico",
+        "Jamaica"
+      ],
+      "answer": "Cuba"
+    },
+    "drawing_prompt": "Draw a vintage car silhouette.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.36,
+        0.52
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.42
+      ],
+      [
+        0.68,
+        0.78
+      ],
+      [
+        0.76,
+        0.56
+      ],
+      [
+        0.86,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "buenos-aires",
+    "name": "Buenos Aires",
+    "country": "Argentina",
+    "country_code": "AR",
+    "secret_word": "tango",
+    "activities": [
+      "watch tango performances",
+      "stroll historic neighborhoods",
+      "visit cafes and bookstores"
+    ],
+    "known_for": "tango culture",
+    "famous_person": "Jorge Luis Borges",
+    "popular_item": "empanadas",
+    "map_svg": "M19 15 L49 11 L90 17 L129 29 L157 53 L174 83 L163 96 L121 106 L82 106 L45 94 L11 62 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Argentina",
+      "Chile",
+      "Uruguay",
+      "Spain"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Buenos Aires es famosa por el tango.",
+      "options": [
+        "Buenos Aires has no famous landmarks.",
+        "Buenos Aires is famous for tango.",
+        "Buenos Aires is a tiny village.",
+        "Buenos Aires is in Antarctica."
+      ],
+      "answer": "Buenos Aires is famous for tango."
+    },
+    "trivia": {
+      "prompt": "What dance is strongly associated with Buenos Aires?",
+      "options": [
+        "Samba",
+        "Flamenco",
+        "Tango",
+        "Waltz"
+      ],
+      "answer": "Tango"
+    },
+    "drawing_prompt": "Draw an obelisk silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.06
+      ],
+      [
+        0.46,
+        0.2
+      ],
+      [
+        0.42,
+        0.4
+      ],
+      [
+        0.36,
+        0.78
+      ],
+      [
+        0.64,
+        0.78
+      ],
+      [
+        0.58,
+        0.4
+      ],
+      [
+        0.54,
+        0.2
+      ],
+      [
+        0.5,
+        0.06
+      ]
+    ]
+  },
+  {
+    "id": "santiago",
+    "name": "Santiago",
+    "country": "Chile",
+    "country_code": "CL",
+    "secret_word": "andes",
+    "activities": [
+      "ride hill funiculars",
+      "visit plazas",
+      "see mountain views"
+    ],
+    "known_for": "Andes views and urban parks",
+    "famous_person": "Pablo Neruda",
+    "popular_item": "empanadas",
+    "map_svg": "M17 20 L56 16 L88 22 L127 23 L164 47 L172 77 L161 101 L128 111 L80 111 L43 88 L18 56 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Chile",
+      "Peru",
+      "Argentina",
+      "Bolivia"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Santiago has mountain views of the Andes.",
+      "options": [
+        "Santiago is in Antarctica.",
+        "Santiago has mountain views of the Andes.",
+        "Santiago has no famous landmarks.",
+        "Santiago is a tiny village."
+      ],
+      "answer": "Santiago has mountain views of the Andes."
+    },
+    "trivia": {
+      "prompt": "Santiago is the capital of which country?",
+      "options": [
+        "Chile",
+        "Peru",
+        "Argentina",
+        "Bolivia"
+      ],
+      "answer": "Chile"
+    },
+    "drawing_prompt": "Draw San Cristobal hill silhouette.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.32,
+        0.56
+      ],
+      [
+        0.5,
+        0.34
+      ],
+      [
+        0.68,
+        0.56
+      ],
+      [
+        0.8,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "lima",
+    "name": "Lima",
+    "country": "Peru",
+    "country_code": "PE",
+    "secret_word": "ceviche",
+    "activities": [
+      "walk cliffside districts",
+      "visit plazas",
+      "eat ceviche"
+    ],
+    "known_for": "Pacific coast and food scene",
+    "famous_person": "Mario Vargas Llosa",
+    "popular_item": "ceviche",
+    "map_svg": "M15 25 L54 10 L86 16 L125 28 L162 52 L170 82 L159 95 L126 105 L78 105 L41 93 L16 61 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Peru",
+      "Chile",
+      "Ecuador",
+      "Bolivia"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Lima is famous for coastal food and history.",
+      "options": [
+        "Lima has no famous landmarks.",
+        "Lima is famous for coastal food and history.",
+        "Lima is a tiny village.",
+        "Lima is in Antarctica."
+      ],
+      "answer": "Lima is famous for coastal food and history."
+    },
+    "trivia": {
+      "prompt": "Lima is the capital of which country?",
+      "options": [
+        "Peru",
+        "Chile",
+        "Ecuador",
+        "Bolivia"
+      ],
+      "answer": "Peru"
+    },
+    "drawing_prompt": "Draw a coastal cliff silhouette.",
+    "drawing_template": [
+      [
+        0.22,
+        0.78
+      ],
+      [
+        0.22,
+        0.44
+      ],
+      [
+        0.34,
+        0.3
+      ],
+      [
+        0.5,
+        0.22
+      ],
+      [
+        0.66,
+        0.3
+      ],
+      [
+        0.78,
+        0.44
+      ],
+      [
+        0.78,
+        0.78
+      ],
+      [
+        0.22,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "bogota",
+    "name": "Bogota",
+    "country": "Colombia",
+    "country_code": "CO",
+    "secret_word": "arepa",
+    "activities": [
+      "visit museums",
+      "ride cable cars to viewpoints",
+      "explore plazas"
+    ],
+    "known_for": "high-altitude capital and museums",
+    "famous_person": "Gabriel Garcia Marquez",
+    "popular_item": "arepas",
+    "map_svg": "M13 19 L52 15 L93 21 L123 33 L160 46 L177 76 L157 100 L124 110 L85 110 L39 87 L14 55 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Colombia",
+      "Venezuela",
+      "Ecuador",
+      "Peru"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Bogota is a high-altitude capital city.",
+      "options": [
+        "Bogota has no famous landmarks.",
+        "Bogota is a high-altitude capital city.",
+        "Bogota is a tiny village.",
+        "Bogota is in Antarctica."
+      ],
+      "answer": "Bogota is a high-altitude capital city."
+    },
+    "trivia": {
+      "prompt": "Bogota is the capital of which country?",
+      "options": [
+        "Colombia",
+        "Venezuela",
+        "Ecuador",
+        "Peru"
+      ],
+      "answer": "Colombia"
+    },
+    "drawing_prompt": "Draw Monserrate hill silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.48,
+        0.28
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.78
+      ],
+      [
+        0.52,
+        0.28
+      ],
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.4,
+        0.36
+      ],
+      [
+        0.6,
+        0.36
+      ]
+    ]
+  },
+  {
+    "id": "medellin",
+    "name": "Medellin",
+    "country": "Colombia",
+    "country_code": "CO",
+    "secret_word": "flower",
+    "activities": [
+      "ride metro cable",
+      "visit plazas",
+      "enjoy parks"
+    ],
+    "known_for": "spring climate and innovation",
+    "famous_person": "Fernando Botero",
+    "popular_item": "bandeja paisa",
+    "map_svg": "M20 24 L50 9 L91 15 L130 27 L158 51 L175 81 L164 105 L122 104 L83 104 L46 92 L12 60 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Colombia",
+      "Peru",
+      "Chile",
+      "Argentina"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Medellin is known as the City of Eternal Spring.",
+      "options": [
+        "Medellin has no famous landmarks.",
+        "Medellin is known as the City of Eternal Spring.",
+        "Medellin is in Antarctica.",
+        "Medellin is a tiny village."
+      ],
+      "answer": "Medellin is known as the City of Eternal Spring."
+    },
+    "trivia": {
+      "prompt": "Medellin is in which country?",
+      "options": [
+        "Colombia",
+        "Peru",
+        "Chile",
+        "Argentina"
+      ],
+      "answer": "Colombia"
+    },
+    "drawing_prompt": "Draw metro cable silhouette.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.36,
+        0.52
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.42
+      ],
+      [
+        0.68,
+        0.78
+      ],
+      [
+        0.76,
+        0.56
+      ],
+      [
+        0.86,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "quito",
+    "name": "Quito",
+    "country": "Ecuador",
+    "country_code": "EC",
+    "secret_word": "andes",
+    "activities": [
+      "visit old town churches",
+      "ride cable car",
+      "see mountain views"
+    ],
+    "known_for": "equatorial highland capital",
+    "famous_person": "Oswaldo Guayasamin",
+    "popular_item": "locro de papa",
+    "map_svg": "M18 18 L48 14 L89 20 L128 32 L156 45 L173 75 L162 99 L120 109 L81 109 L44 97 L10 54 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Ecuador",
+      "Peru",
+      "Colombia",
+      "Bolivia"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Quito is a high-altitude capital near the equator.",
+      "options": [
+        "Quito has no famous landmarks.",
+        "Quito is a high-altitude capital near the equator.",
+        "Quito is in Antarctica.",
+        "Quito is a tiny village."
+      ],
+      "answer": "Quito is a high-altitude capital near the equator."
+    },
+    "trivia": {
+      "prompt": "Quito is the capital of which country?",
+      "options": [
+        "Ecuador",
+        "Peru",
+        "Colombia",
+        "Bolivia"
+      ],
+      "answer": "Ecuador"
+    },
+    "drawing_prompt": "Draw a volcano cone silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.06
+      ],
+      [
+        0.46,
+        0.2
+      ],
+      [
+        0.42,
+        0.4
+      ],
+      [
+        0.36,
+        0.78
+      ],
+      [
+        0.64,
+        0.78
+      ],
+      [
+        0.58,
+        0.4
+      ],
+      [
+        0.54,
+        0.2
+      ],
+      [
+        0.5,
+        0.06
+      ]
+    ]
+  },
+  {
+    "id": "sydney",
+    "name": "Sydney",
+    "country": "Australia",
+    "country_code": "AU",
+    "secret_word": "harbour",
+    "activities": [
+      "walk around circular quay",
+      "surf nearby beaches",
+      "take a ferry on the harbor"
+    ],
+    "known_for": "the Sydney Opera House",
+    "famous_person": "Nicole Kidman",
+    "popular_item": "meat pie",
+    "map_svg": "M16 23 L55 19 L87 14 L126 26 L163 50 L171 80 L160 104 L127 103 L79 103 L42 91 L17 59 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Australia",
+      "New Zealand",
+      "South Africa",
+      "Canada"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Sydney has a famous opera house.",
+      "options": [
+        "Sydney is a tiny village.",
+        "Sydney is in Antarctica.",
+        "Sydney has no famous landmarks.",
+        "Sydney has a famous opera house."
+      ],
+      "answer": "Sydney has a famous opera house."
+    },
+    "trivia": {
+      "prompt": "What bridge is a major landmark beside Sydney Harbour?",
+      "options": [
+        "Tower Bridge",
+        "Golden Gate Bridge",
+        "Sydney Harbour Bridge",
+        "Brooklyn Bridge"
+      ],
+      "answer": "Sydney Harbour Bridge"
+    },
+    "drawing_prompt": "Draw the Sydney Opera House sails.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.32,
+        0.56
+      ],
+      [
+        0.5,
+        0.34
+      ],
+      [
+        0.68,
+        0.56
+      ],
+      [
+        0.8,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "melbourne",
+    "name": "Melbourne",
+    "country": "Australia",
+    "country_code": "AU",
+    "secret_word": "laneway",
+    "activities": [
+      "explore laneway art",
+      "watch sports events",
+      "visit cafes"
+    ],
+    "known_for": "laneways and coffee culture",
+    "famous_person": "Chris Hemsworth",
+    "popular_item": "flat white",
+    "map_svg": "M14 17 L53 13 L94 19 L124 31 L161 55 L178 74 L158 98 L125 108 L86 108 L40 96 L15 53 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Australia",
+      "New Zealand",
+      "South Africa",
+      "Canada"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Melbourne is known for laneways and coffee.",
+      "options": [
+        "Melbourne is a tiny village.",
+        "Melbourne is known for laneways and coffee.",
+        "Melbourne has no famous landmarks.",
+        "Melbourne is in Antarctica."
+      ],
+      "answer": "Melbourne is known for laneways and coffee."
+    },
+    "trivia": {
+      "prompt": "Melbourne is in which country?",
+      "options": [
+        "Australia",
+        "New Zealand",
+        "South Africa",
+        "Canada"
+      ],
+      "answer": "Australia"
+    },
+    "drawing_prompt": "Draw a tram silhouette.",
+    "drawing_template": [
+      [
+        0.22,
+        0.78
+      ],
+      [
+        0.22,
+        0.44
+      ],
+      [
+        0.34,
+        0.3
+      ],
+      [
+        0.5,
+        0.22
+      ],
+      [
+        0.66,
+        0.3
+      ],
+      [
+        0.78,
+        0.44
+      ],
+      [
+        0.78,
+        0.78
+      ],
+      [
+        0.22,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "brisbane",
+    "name": "Brisbane",
+    "country": "Australia",
+    "country_code": "AU",
+    "secret_word": "river",
+    "activities": [
+      "walk the riverfront",
+      "visit parks",
+      "take day trips to beaches"
+    ],
+    "known_for": "riverfront parks and warm weather",
+    "famous_person": "Steve Irwin",
+    "popular_item": "lamington",
+    "map_svg": "M12 22 L51 18 L92 13 L122 25 L159 49 L176 79 L156 103 L123 112 L84 102 L38 90 L13 58 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Australia",
+      "New Zealand",
+      "South Africa",
+      "Canada"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Brisbane is built around a winding river.",
+      "options": [
+        "Brisbane is built around a winding river.",
+        "Brisbane is a tiny village.",
+        "Brisbane has no famous landmarks.",
+        "Brisbane is in Antarctica."
+      ],
+      "answer": "Brisbane is built around a winding river."
+    },
+    "trivia": {
+      "prompt": "Brisbane is in which Australian state?",
+      "options": [
+        "Queensland",
+        "Victoria",
+        "NSW",
+        "Tasmania"
+      ],
+      "answer": "Queensland"
+    },
+    "drawing_prompt": "Draw Story Bridge silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.48,
+        0.28
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.78
+      ],
+      [
+        0.52,
+        0.28
+      ],
+      [
+        0.5,
+        0.08
+      ],
+      [
+        0.4,
+        0.36
+      ],
+      [
+        0.6,
+        0.36
+      ]
+    ]
+  },
+  {
+    "id": "perth",
+    "name": "Perth",
+    "country": "Australia",
+    "country_code": "AU",
+    "secret_word": "quokka",
+    "activities": [
+      "relax on beaches",
+      "visit kings park",
+      "explore waterfronts"
+    ],
+    "known_for": "sunny west coast city",
+    "famous_person": "Heath Ledger",
+    "popular_item": "fish and chips",
+    "map_svg": "M19 16 L49 12 L90 18 L129 30 L157 54 L174 73 L163 97 L121 107 L82 107 L45 95 L11 63 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "Australia",
+      "New Zealand",
+      "South Africa",
+      "Canada"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Perth is a major city on Australia's west coast.",
+      "options": [
+        "Perth is a major city on Australia's west coast.",
+        "Perth is a tiny village.",
+        "Perth is in Antarctica.",
+        "Perth has no famous landmarks."
+      ],
+      "answer": "Perth is a major city on Australia's west coast."
+    },
+    "trivia": {
+      "prompt": "Perth is on which coast of Australia?",
+      "options": [
+        "West coast",
+        "East coast",
+        "South coast",
+        "North coast"
+      ],
+      "answer": "West coast"
+    },
+    "drawing_prompt": "Draw skyline with bell tower silhouette.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.36,
+        0.52
+      ],
+      [
+        0.46,
+        0.78
+      ],
+      [
+        0.54,
+        0.42
+      ],
+      [
+        0.68,
+        0.78
+      ],
+      [
+        0.76,
+        0.56
+      ],
+      [
+        0.86,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  },
+  {
+    "id": "auckland",
+    "name": "Auckland",
+    "country": "New Zealand",
+    "country_code": "NZ",
+    "secret_word": "kiwi",
+    "activities": [
+      "sail on the harbor",
+      "visit volcanic viewpoints",
+      "explore waterfront neighborhoods"
+    ],
+    "known_for": "its harbors and skyline",
+    "famous_person": "Lorde",
+    "popular_item": "fish and chips",
+    "map_svg": "M17 21 L56 17 L88 23 L127 24 L164 48 L172 78 L161 102 L128 112 L80 101 L43 89 L18 57 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "New Zealand",
+      "Australia",
+      "Fiji",
+      "United Kingdom"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Auckland is called the City of Sails.",
+      "options": [
+        "Auckland is in Antarctica.",
+        "Auckland is called the City of Sails.",
+        "Auckland has no famous landmarks.",
+        "Auckland is a tiny village."
+      ],
+      "answer": "Auckland is called the City of Sails."
+    },
+    "trivia": {
+      "prompt": "What iconic tower stands in central Auckland?",
+      "options": [
+        "Sky Tower",
+        "CN Tower",
+        "Eiffel Tower",
+        "Tokyo Tower"
+      ],
+      "answer": "Sky Tower"
+    },
+    "drawing_prompt": "Draw the Sky Tower silhouette.",
+    "drawing_template": [
+      [
+        0.5,
+        0.06
+      ],
+      [
+        0.46,
+        0.2
+      ],
+      [
+        0.42,
+        0.4
+      ],
+      [
+        0.36,
+        0.78
+      ],
+      [
+        0.64,
+        0.78
+      ],
+      [
+        0.58,
+        0.4
+      ],
+      [
+        0.54,
+        0.2
+      ],
+      [
+        0.5,
+        0.06
+      ]
+    ]
+  },
+  {
+    "id": "wellington",
+    "name": "Wellington",
+    "country": "New Zealand",
+    "country_code": "NZ",
+    "secret_word": "windy",
+    "activities": [
+      "ride the cable car",
+      "walk the waterfront",
+      "visit museums"
+    ],
+    "known_for": "harbor hills and arts scene",
+    "famous_person": "Peter Jackson",
+    "popular_item": "flat white",
+    "map_svg": "M15 15 L54 11 L86 17 L125 29 L162 53 L170 83 L159 96 L126 106 L78 106 L41 94 L16 62 Z",
+    "geography_prompt": "This map belongs to which country?",
+    "geography_options": [
+      "New Zealand",
+      "Australia",
+      "Fiji",
+      "Samoa"
+    ],
+    "duolingo": {
+      "prompt": "Translate: Wellington is known for wind and a creative scene.",
+      "options": [
+        "Wellington is known for wind and a creative scene.",
+        "Wellington is in Antarctica.",
+        "Wellington has no famous landmarks.",
+        "Wellington is a tiny village."
+      ],
+      "answer": "Wellington is known for wind and a creative scene."
+    },
+    "trivia": {
+      "prompt": "Wellington is the capital of which country?",
+      "options": [
+        "New Zealand",
+        "Australia",
+        "Fiji",
+        "Samoa"
+      ],
+      "answer": "New Zealand"
+    },
+    "drawing_prompt": "Draw the Beehive parliament silhouette.",
+    "drawing_template": [
+      [
+        0.2,
+        0.78
+      ],
+      [
+        0.32,
+        0.56
+      ],
+      [
+        0.5,
+        0.34
+      ],
+      [
+        0.68,
+        0.56
+      ],
+      [
+        0.8,
+        0.78
+      ],
+      [
+        0.2,
+        0.78
+      ]
+    ]
+  }
+]
