@@ -94,6 +94,27 @@ const STATUS_PRIORITY: Record<LetterFeedback["status"], number> = {
 const API_BASE = import.meta.env.PUBLIC_API_BASE ?? "";
 const SESSION_TOKEN_STORAGE_KEY = "citordle_session_token";
 
+function millisecondsUntilNextUtcMidnight(now: Date = new Date()): number {
+  const nextUtcMidnight = Date.UTC(
+    now.getUTCFullYear(),
+    now.getUTCMonth(),
+    now.getUTCDate() + 1,
+    0,
+    0,
+    0,
+    0
+  );
+  return Math.max(0, nextUtcMidnight - now.getTime());
+}
+
+function formatCountdown(milliseconds: number): string {
+  const totalSeconds = Math.floor(milliseconds / 1000);
+  const hours = Math.floor(totalSeconds / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  const seconds = totalSeconds % 60;
+  return [hours, minutes, seconds].map((value) => String(value).padStart(2, "0")).join(":");
+}
+
 async function postJson<T>(
   url: string,
   payload: Record<string, unknown>,
@@ -225,6 +246,9 @@ export default function CitordleApp() {
     round3: 0
   });
   const [sessionToken, setSessionToken] = useState("");
+  const [resetCountdown, setResetCountdown] = useState(() =>
+    formatCountdown(millisecondsUntilNextUtcMidnight())
+  );
 
   function saveSessionToken(token: string) {
     setSessionToken(token);
@@ -289,6 +313,18 @@ export default function CitordleApp() {
       document.body.style.overflow = previousOverflow;
     };
   }, [isSketching]);
+
+  useEffect(() => {
+    const updateCountdown = () => {
+      setResetCountdown(formatCountdown(millisecondsUntilNextUtcMidnight()));
+    };
+
+    updateCountdown();
+    const intervalId = window.setInterval(updateCountdown, 1000);
+    return () => {
+      window.clearInterval(intervalId);
+    };
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -818,6 +854,7 @@ export default function CitordleApp() {
           <section className="round done">
             <h2>Congrats, you did it!</h2>
             <p>You solved all stages for today in {todayTotalAttempts} total tries.</p>
+            <p className="next-reset">Next city in {resetCountdown} (UTC).</p>
 
             <div className="distribution">
               {stats.map((item) => (
