@@ -23,6 +23,24 @@ Each day:
 
 Daily selection is now cycle-based so each day gets a different city until the full city list is exhausted.
 
+## Manual daily override (admin)
+
+- You can force an immediate switch to the next city/word on a server with:
+
+```bash
+just next
+```
+
+- This sets a UTC-day-scoped override (`FORCE_DAY_DATE` + `FORCE_DAY_OFFSET`) and restarts the backend service.
+- The override changes which puzzle seed is used, but keeps the active date as today, so countdown-to-UTC-midnight behavior stays correct.
+- Running `just next` multiple times on the same UTC day keeps advancing to another city slot.
+- At the next UTC midnight, the override naturally expires and the normal schedule resumes.
+- If needed, clear the override with:
+
+```bash
+just clear-forced-word
+```
+
 ## Run locally
 
 1. Start the backend:
@@ -34,7 +52,7 @@ cargo run --manifest-path backend/Cargo.toml
 2. Install frontend dependencies with Bun:
 
 ```bash
-bun install --cwd frontend
+cd frontend && bun install
 ```
 
 3. Start the frontend:

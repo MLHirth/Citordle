@@ -61,6 +61,20 @@ status:
 logs:
     sudo journalctl -u "{{service_name}}" -n 200 --no-pager
 
+next:
+    sudo install -d -m 750 "/etc/citordle"
+    sudo touch "{{env_file}}"
+    sudo chmod 640 "{{env_file}}"
+    sudo bash -euo pipefail -c 'today=$(date -u +%F); current_date=$(grep "^FORCE_DAY_DATE=" "{{env_file}}" | tail -n1 | cut -d= -f2- || true); current_offset=$(grep "^FORCE_DAY_OFFSET=" "{{env_file}}" | tail -n1 | cut -d= -f2- || true); if [[ "$current_date" == "$today" && "$current_offset" =~ ^-?[0-9]+$ ]]; then next_offset=$((current_offset + 1)); else next_offset=1; fi; tmp=$(mktemp); grep -v "^FORCE_DAY_DATE=" "{{env_file}}" | grep -v "^FORCE_DAY_OFFSET=" > "$tmp" || true; printf "FORCE_DAY_DATE=%s\nFORCE_DAY_OFFSET=%s\n" "$today" "$next_offset" >> "$tmp"; cat "$tmp" > "{{env_file}}"; rm -f "$tmp"; echo "Set FORCE_DAY_DATE=$today FORCE_DAY_OFFSET=$next_offset"'
+    sudo systemctl restart "{{service_name}}"
+
+force-next-word: next
+
+clear-forced-word:
+    sudo touch "{{env_file}}"
+    sudo bash -euo pipefail -c 'tmp=$(mktemp); grep -v "^FORCE_DAY_DATE=" "{{env_file}}" | grep -v "^FORCE_DAY_OFFSET=" > "$tmp" || true; cat "$tmp" > "{{env_file}}"; rm -f "$tmp"; echo "Cleared FORCE_DAY_* overrides"'
+    sudo systemctl restart "{{service_name}}"
+
 deploy-backend: build-backend init-env install-service enable restart
 
 deploy: deploy-backend deploy-frontend

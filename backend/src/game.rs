@@ -1,6 +1,6 @@
 use std::collections::{HashMap, HashSet};
 
-use chrono::{Datelike, NaiveDate, Utc};
+use chrono::{Datelike, Duration, NaiveDate, Utc};
 
 use crate::{
     city::City,
@@ -45,8 +45,9 @@ impl GameService {
     }
 
     pub fn daily_game(&self, date: NaiveDate) -> DailyGameResponse {
-        let city = self.city_for_date(date);
-        let stage_kind = Self::stage_kind_for_date(date);
+        let puzzle_date = Self::puzzle_date(date);
+        let city = self.city_for_date(puzzle_date);
+        let stage_kind = Self::stage_kind_for_date(puzzle_date);
 
         let hints = vec![
             format!(
@@ -108,7 +109,8 @@ impl GameService {
     }
 
     pub fn check_round1(&self, date: NaiveDate, guess: &str) -> Result<RoundOneEvaluation, String> {
-        let city = self.city_for_date(date);
+        let puzzle_date = Self::puzzle_date(date);
+        let city = self.city_for_date(puzzle_date);
         let secret = normalize_word(&city.secret_word);
         let normalized_guess = normalize_word(guess);
 
@@ -130,7 +132,8 @@ impl GameService {
     }
 
     pub fn check_round2(&self, date: NaiveDate, answer: &str) -> RoundEvaluation {
-        let city = self.city_for_date(date);
+        let puzzle_date = Self::puzzle_date(date);
+        let city = self.city_for_date(puzzle_date);
         let expected = normalize_text(&city.country);
         let received = normalize_text(answer);
         let correct = expected == received;
@@ -150,8 +153,9 @@ impl GameService {
         date: NaiveDate,
         request: &StageThreeAnswerRequest,
     ) -> RoundEvaluation {
-        let city = self.city_for_date(date);
-        let stage_kind = Self::stage_kind_for_date(date);
+        let puzzle_date = Self::puzzle_date(date);
+        let city = self.city_for_date(puzzle_date);
+        let stage_kind = Self::stage_kind_for_date(puzzle_date);
 
         match stage_kind {
             StageThreeKind::Duolingo => {
@@ -215,7 +219,8 @@ impl GameService {
         date: NaiveDate,
         session_token: Option<&str>,
     ) -> SessionSnapshot {
-        let city = self.city_for_date(date);
+        let puzzle_date = Self::puzzle_date(date);
+        let city = self.city_for_date(puzzle_date);
         self.session_manager
             .bootstrap(session_token, date, city.id.as_str())
     }
@@ -227,7 +232,8 @@ impl GameService {
         round: u8,
         correct: bool,
     ) -> SessionSnapshot {
-        let city = self.city_for_date(date);
+        let puzzle_date = Self::puzzle_date(date);
+        let city = self.city_for_date(puzzle_date);
         self.session_manager.apply_round_attempt(
             session_token,
             date,
@@ -264,6 +270,22 @@ impl GameService {
             1 => StageThreeKind::Draw,
             _ => StageThreeKind::Trivia,
         }
+    }
+
+    fn puzzle_date(date: NaiveDate) -> NaiveDate {
+        let force_date = std::env::var("FORCE_DAY_DATE")
+            .ok()
+            .and_then(|value| NaiveDate::parse_from_str(value.trim(), "%Y-%m-%d").ok());
+        let force_offset = std::env::var("FORCE_DAY_OFFSET")
+            .ok()
+            .and_then(|value| value.trim().parse::<i64>().ok())
+            .unwrap_or(0);
+
+        if force_offset != 0 && force_date == Some(date) {
+            return date + Duration::days(force_offset);
+        }
+
+        date
     }
 }
 
