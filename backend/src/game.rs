@@ -120,9 +120,7 @@ impl GameService {
             return Err(format!("Guess must be {} letters long.", secret.len()));
         }
 
-        if !self.allowed_words.contains(&normalized_guess) {
-            return Err("Guess is not in the allowed dictionary list.".to_string());
-        }
+        let _in_dictionary = self.allowed_words.contains(&normalized_guess);
 
         let feedback = build_feedback(&secret, &normalized_guess);
         Ok(RoundOneEvaluation {
